@@ -1,0 +1,10 @@
+^C:\USERS\DAVID\WORK\PROJECTS\PAPER\SAFT\CODE\CODE\PYTHON\BUILD_PYTHON\CHARONLOAD\TORCH\CXX_STANDARD_14\CMAKEFILES\0F2997C2415B495CCFA51EE674FA6C98\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/David/miniconda3/Lib/site-packages/charonload/cmake/torch/cxx_standard -BC:/Users/David/Work/Projects/Paper/SAFT/code/code/python/build_python/charonload/torch/cxx_standard_14 --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/David/Work/Projects/Paper/SAFT/code/code/python/build_python/charonload/torch/cxx_standard_14/torch_cxx_standard.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

@@ -1,0 +1,8 @@
+.vscode/*
+/code/nvdiffrecmc/*
+/data/*
+/results/* 
+/storage/*
+/evaluation/*
+imgui.ini
+*__pycache__*

@@ -1,0 +1,16 @@
+diff --git a/render/texture.py b/render/texture.py
+index dcf0bc6..b75ddbf 100644
+--- a/render/texture.py
++++ b/render/texture.py
+@@ -60,7 +60,10 @@ class Texture2D:
+         else:
+             if self.data.shape[1] > 1 and self.data.shape[2] > 1:
+                 mips = [self.data]
+-                while mips[-1].shape[1] > 1 and mips[-1].shape[2] > 1:
++                while (mips[-1].shape[1] > 1
++                    and mips[-1].shape[1] % 2 == 0
++                    and mips[-1].shape[2] > 1
++                    and mips[-1].shape[2] % 2 == 0):
+                     mips += [texture2d_mip.apply(mips[-1])]
+                 out = dr.texture(mips[0], texc, texc_deriv, mip=mips[1:], filter_mode=filter_mode)
+             else:

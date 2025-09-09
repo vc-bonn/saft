@@ -1,0 +1,4 @@
+C:/Users/David/Work/Projects/Paper/SAFT/code/code/python/build_python/CMakeFiles/solver_cpp.dir
+C:/Users/David/Work/Projects/Paper/SAFT/code/code/python/build_python/CMakeFiles/cpp_solver.dir
+C:/Users/David/Work/Projects/Paper/SAFT/code/code/python/build_python/CMakeFiles/ALL_BUILD.dir
+C:/Users/David/Work/Projects/Paper/SAFT/code/code/python/build_python/CMakeFiles/ZERO_CHECK.dir

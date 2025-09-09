@@ -1,0 +1,3 @@
+[submodule "code/nvdiffrecmc"]
+	path = code/nvdiffrecmc
+	url = https://github.com/NVlabs/nvdiffrecmc.git

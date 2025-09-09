@@ -1,0 +1,180 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ResolveNugetPackages>false</ResolveNugetPackages>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{B492346F-3C99-3A47-AD95-EADBCC26C903}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>ZERO_CHECK</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+    <Import Project="$(VCTargetsPath)\BuildCustomizations\CUDA 12.1.props" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\David\Work\Projects\Paper\SAFT\code\code\python\build_python\charonload\torch\cxx_standard_17\CMakeFiles\f16fae0fbe99f044af1f44db662067ba\generate.stamp.rule">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</BuildInParallel>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Checking Build System</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/David/miniconda3/Lib/site-packages/charonload/cmake/torch/cxx_standard -BC:/Users/David/Work/Projects/Paper/SAFT/code/code/python/build_python/charonload/torch/cxx_standard_17 --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/David/Work/Projects/Paper/SAFT/code/code/python/build_python/charonload/torch/cxx_standard_17/torch_cxx_standard.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeCUDAInformation.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CheckCXXCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\NVIDIA-CUDA.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Internal\CheckCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Internal\CheckFlagCommonConfig.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Platform\Windows-NVIDIA-CUDA.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Platform\WindowsPaths.cmake;C:\Users\David\Work\Projects\Paper\SAFT\code\code\python\build_python\CMakeFiles\3.27.9\CMakeCUDACompiler.cmake;C:\Users\David\Work\Projects\Paper\SAFT\code\code\python\build_python\CMakeFiles\3.27.9\CMakeCXXCompiler.cmake;C:\Users\David\Work\Projects\Paper\SAFT\code\code\python\build_python\CMakeFiles\3.27.9\CMakeRCCompiler.cmake;C:\Users\David\Work\Projects\Paper\SAFT\code\code\python\build_python\CMakeFiles\3.27.9\CMakeSystem.cmake;C:\Users\David\Work\Projects\Paper\SAFT\code\code\python\build_python\charonload\torch\cxx_standard_17\detect_cuda_compute_capabilities.cu;C:\Users\David\Work\Projects\Paper\SAFT\code\code\python\build_python\charonload\torch\cxx_standard_17\detect_cuda_version.cc;C:\Users\David\miniconda3\Lib\site-packages\charonload\cmake\torch\cxx_standard\CMakeLists.txt;C:\Users\David\miniconda3\Lib\site-packages\torch\share\cmake\Caffe2\Caffe2Config.cmake;C:\Users\David\miniconda3\Lib\site-packages\torch\share\cmake\Caffe2\Caffe2Targets-release.cmake;C:\Users\David\miniconda3\Lib\site-packages\torch\share\cmake\Caffe2\Caffe2Targets.cmake;C:\Users\David\miniconda3\Lib\site-packages\torch\share\cmake\Caffe2\FindCUDAToolkit.cmake;C:\Users\David\miniconda3\Lib\site-packages\torch\share\cmake\Caffe2\Modules_CUDA_fix\FindCUDA.cmake;C:\Users\David\miniconda3\Lib\site-packages\torch\share\cmake\Caffe2\Modules_CUDA_fix\upstream\CMakeInitializeConfigs.cmake;C:\Users\David\miniconda3\Lib\site-packages\torch\share\cmake\Caffe2\Modules_CUDA_fix\upstream\FindCUDA.cmake;C:\Users\David\miniconda3\Lib\site-packages\torch\share\cmake\Caffe2\Modules_CUDA_fix\upstream\FindCUDA\select_compute_arch.cmake;C:\Users\David\miniconda3\Lib\site-packages\torch\share\cmake\Caffe2\Modules_CUDA_fix\upstream\FindPackageHandleStandardArgs.cmake;C:\Users\David\miniconda3\Lib\site-packages\torch\share\cmake\Caffe2\Modules_CUDA_fix\upstream\FindPackageMessage.cmake;C:\Users\David\miniconda3\Lib\site-packages\torch\share\cmake\Caffe2\public\cuda.cmake;C:\Users\David\miniconda3\Lib\site-packages\torch\share\cmake\Caffe2\public\mkl.cmake;C:\Users\David\miniconda3\Lib\site-packages\torch\share\cmake\Caffe2\public\mkldnn.cmake;C:\Users\David\miniconda3\Lib\site-packages\torch\share\cmake\Caffe2\public\utils.cmake;C:\Users\David\miniconda3\Lib\site-packages\torch\share\cmake\Torch\TorchConfig.cmake;C:\Users\David\miniconda3\Lib\site-packages\torch\share\cmake\Torch\TorchConfigVersion.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\David\Work\Projects\Paper\SAFT\code\code\python\build_python\charonload\torch\cxx_standard_17\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</BuildInParallel>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Checking Build System</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/David/miniconda3/Lib/site-packages/charonload/cmake/torch/cxx_standard -BC:/Users/David/Work/Projects/Paper/SAFT/code/code/python/build_python/charonload/torch/cxx_standard_17 --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/David/Work/Projects/Paper/SAFT/code/code/python/build_python/charonload/torch/cxx_standard_17/torch_cxx_standard.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeCUDAInformation.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CheckCXXCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\NVIDIA-CUDA.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Internal\CheckCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Internal\CheckFlagCommonConfig.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Platform\Windows-NVIDIA-CUDA.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Platform\WindowsPaths.cmake;C:\Users\David\Work\Projects\Paper\SAFT\code\code\python\build_python\CMakeFiles\3.27.9\CMakeCUDACompiler.cmake;C:\Users\David\Work\Projects\Paper\SAFT\code\code\python\build_python\CMakeFiles\3.27.9\CMakeCXXCompiler.cmake;C:\Users\David\Work\Projects\Paper\SAFT\code\code\python\build_python\CMakeFiles\3.27.9\CMakeRCCompiler.cmake;C:\Users\David\Work\Projects\Paper\SAFT\code\code\python\build_python\CMakeFiles\3.27.9\CMakeSystem.cmake;C:\Users\David\Work\Projects\Paper\SAFT\code\code\python\build_python\charonload\torch\cxx_standard_17\detect_cuda_compute_capabilities.cu;C:\Users\David\Work\Projects\Paper\SAFT\code\code\python\build_python\charonload\torch\cxx_standard_17\detect_cuda_version.cc;C:\Users\David\miniconda3\Lib\site-packages\charonload\cmake\torch\cxx_standard\CMakeLists.txt;C:\Users\David\miniconda3\Lib\site-packages\torch\share\cmake\Caffe2\Caffe2Config.cmake;C:\Users\David\miniconda3\Lib\site-packages\torch\share\cmake\Caffe2\Caffe2Targets-release.cmake;C:\Users\David\miniconda3\Lib\site-packages\torch\share\cmake\Caffe2\Caffe2Targets.cmake;C:\Users\David\miniconda3\Lib\site-packages\torch\share\cmake\Caffe2\FindCUDAToolkit.cmake;C:\Users\David\miniconda3\Lib\site-packages\torch\share\cmake\Caffe2\Modules_CUDA_fix\FindCUDA.cmake;C:\Users\David\miniconda3\Lib\site-packages\torch\share\cmake\Caffe2\Modules_CUDA_fix\upstream\CMakeInitializeConfigs.cmake;C:\Users\David\miniconda3\Lib\site-packages\torch\share\cmake\Caffe2\Modules_CUDA_fix\upstream\FindCUDA.cmake;C:\Users\David\miniconda3\Lib\site-packages\torch\share\cmake\Caffe2\Modules_CUDA_fix\upstream\FindCUDA\select_compute_arch.cmake;C:\Users\David\miniconda3\Lib\site-packages\torch\share\cmake\Caffe2\Modules_CUDA_fix\upstream\FindPackageHandleStandardArgs.cmake;C:\Users\David\miniconda3\Lib\site-packages\torch\share\cmake\Caffe2\Modules_CUDA_fix\upstream\FindPackageMessage.cmake;C:\Users\David\miniconda3\Lib\site-packages\torch\share\cmake\Caffe2\public\cuda.cmake;C:\Users\David\miniconda3\Lib\site-packages\torch\share\cmake\Caffe2\public\mkl.cmake;C:\Users\David\miniconda3\Lib\site-packages\torch\share\cmake\Caffe2\public\mkldnn.cmake;C:\Users\David\miniconda3\Lib\site-packages\torch\share\cmake\Caffe2\public\utils.cmake;C:\Users\David\miniconda3\Lib\site-packages\torch\share\cmake\Torch\TorchConfig.cmake;C:\Users\David\miniconda3\Lib\site-packages\torch\share\cmake\Torch\TorchConfigVersion.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\David\Work\Projects\Paper\SAFT\code\code\python\build_python\charonload\torch\cxx_standard_17\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</BuildInParallel>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Checking Build System</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/David/miniconda3/Lib/site-packages/charonload/cmake/torch/cxx_standard -BC:/Users/David/Work/Projects/Paper/SAFT/code/code/python/build_python/charonload/torch/cxx_standard_17 --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/David/Work/Projects/Paper/SAFT/code/code/python/build_python/charonload/torch/cxx_standard_17/torch_cxx_standard.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeCUDAInformation.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CheckCXXCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\NVIDIA-CUDA.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Internal\CheckCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Internal\CheckFlagCommonConfig.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Platform\Windows-NVIDIA-CUDA.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Platform\WindowsPaths.cmake;C:\Users\David\Work\Projects\Paper\SAFT\code\code\python\build_python\CMakeFiles\3.27.9\CMakeCUDACompiler.cmake;C:\Users\David\Work\Projects\Paper\SAFT\code\code\python\build_python\CMakeFiles\3.27.9\CMakeCXXCompiler.cmake;C:\Users\David\Work\Projects\Paper\SAFT\code\code\python\build_python\CMakeFiles\3.27.9\CMakeRCCompiler.cmake;C:\Users\David\Work\Projects\Paper\SAFT\code\code\python\build_python\CMakeFiles\3.27.9\CMakeSystem.cmake;C:\Users\David\Work\Projects\Paper\SAFT\code\code\python\build_python\charonload\torch\cxx_standard_17\detect_cuda_compute_capabilities.cu;C:\Users\David\Work\Projects\Paper\SAFT\code\code\python\build_python\charonload\torch\cxx_standard_17\detect_cuda_version.cc;C:\Users\David\miniconda3\Lib\site-packages\charonload\cmake\torch\cxx_standard\CMakeLists.txt;C:\Users\David\miniconda3\Lib\site-packages\torch\share\cmake\Caffe2\Caffe2Config.cmake;C:\Users\David\miniconda3\Lib\site-packages\torch\share\cmake\Caffe2\Caffe2Targets-release.cmake;C:\Users\David\miniconda3\Lib\site-packages\torch\share\cmake\Caffe2\Caffe2Targets.cmake;C:\Users\David\miniconda3\Lib\site-packages\torch\share\cmake\Caffe2\FindCUDAToolkit.cmake;C:\Users\David\miniconda3\Lib\site-packages\torch\share\cmake\Caffe2\Modules_CUDA_fix\FindCUDA.cmake;C:\Users\David\miniconda3\Lib\site-packages\torch\share\cmake\Caffe2\Modules_CUDA_fix\upstream\CMakeInitializeConfigs.cmake;C:\Users\David\miniconda3\Lib\site-packages\torch\share\cmake\Caffe2\Modules_CUDA_fix\upstream\FindCUDA.cmake;C:\Users\David\miniconda3\Lib\site-packages\torch\share\cmake\Caffe2\Modules_CUDA_fix\upstream\FindCUDA\select_compute_arch.cmake;C:\Users\David\miniconda3\Lib\site-packages\torch\share\cmake\Caffe2\Modules_CUDA_fix\upstream\FindPackageHandleStandardArgs.cmake;C:\Users\David\miniconda3\Lib\site-packages\torch\share\cmake\Caffe2\Modules_CUDA_fix\upstream\FindPackageMessage.cmake;C:\Users\David\miniconda3\Lib\site-packages\torch\share\cmake\Caffe2\public\cuda.cmake;C:\Users\David\miniconda3\Lib\site-packages\torch\share\cmake\Caffe2\public\mkl.cmake;C:\Users\David\miniconda3\Lib\site-packages\torch\share\cmake\Caffe2\public\mkldnn.cmake;C:\Users\David\miniconda3\Lib\site-packages\torch\share\cmake\Caffe2\public\utils.cmake;C:\Users\David\miniconda3\Lib\site-packages\torch\share\cmake\Torch\TorchConfig.cmake;C:\Users\David\miniconda3\Lib\site-packages\torch\share\cmake\Torch\TorchConfigVersion.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\David\Work\Projects\Paper\SAFT\code\code\python\build_python\charonload\torch\cxx_standard_17\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</BuildInParallel>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Checking Build System</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/David/miniconda3/Lib/site-packages/charonload/cmake/torch/cxx_standard -BC:/Users/David/Work/Projects/Paper/SAFT/code/code/python/build_python/charonload/torch/cxx_standard_17 --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/David/Work/Projects/Paper/SAFT/code/code/python/build_python/charonload/torch/cxx_standard_17/torch_cxx_standard.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeCUDAInformation.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CheckCXXCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\NVIDIA-CUDA.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Internal\CheckCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Internal\CheckFlagCommonConfig.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Platform\Windows-NVIDIA-CUDA.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Platform\WindowsPaths.cmake;C:\Users\David\Work\Projects\Paper\SAFT\code\code\python\build_python\CMakeFiles\3.27.9\CMakeCUDACompiler.cmake;C:\Users\David\Work\Projects\Paper\SAFT\code\code\python\build_python\CMakeFiles\3.27.9\CMakeCXXCompiler.cmake;C:\Users\David\Work\Projects\Paper\SAFT\code\code\python\build_python\CMakeFiles\3.27.9\CMakeRCCompiler.cmake;C:\Users\David\Work\Projects\Paper\SAFT\code\code\python\build_python\CMakeFiles\3.27.9\CMakeSystem.cmake;C:\Users\David\Work\Projects\Paper\SAFT\code\code\python\build_python\charonload\torch\cxx_standard_17\detect_cuda_compute_capabilities.cu;C:\Users\David\Work\Projects\Paper\SAFT\code\code\python\build_python\charonload\torch\cxx_standard_17\detect_cuda_version.cc;C:\Users\David\miniconda3\Lib\site-packages\charonload\cmake\torch\cxx_standard\CMakeLists.txt;C:\Users\David\miniconda3\Lib\site-packages\torch\share\cmake\Caffe2\Caffe2Config.cmake;C:\Users\David\miniconda3\Lib\site-packages\torch\share\cmake\Caffe2\Caffe2Targets-release.cmake;C:\Users\David\miniconda3\Lib\site-packages\torch\share\cmake\Caffe2\Caffe2Targets.cmake;C:\Users\David\miniconda3\Lib\site-packages\torch\share\cmake\Caffe2\FindCUDAToolkit.cmake;C:\Users\David\miniconda3\Lib\site-packages\torch\share\cmake\Caffe2\Modules_CUDA_fix\FindCUDA.cmake;C:\Users\David\miniconda3\Lib\site-packages\torch\share\cmake\Caffe2\Modules_CUDA_fix\upstream\CMakeInitializeConfigs.cmake;C:\Users\David\miniconda3\Lib\site-packages\torch\share\cmake\Caffe2\Modules_CUDA_fix\upstream\FindCUDA.cmake;C:\Users\David\miniconda3\Lib\site-packages\torch\share\cmake\Caffe2\Modules_CUDA_fix\upstream\FindCUDA\select_compute_arch.cmake;C:\Users\David\miniconda3\Lib\site-packages\torch\share\cmake\Caffe2\Modules_CUDA_fix\upstream\FindPackageHandleStandardArgs.cmake;C:\Users\David\miniconda3\Lib\site-packages\torch\share\cmake\Caffe2\Modules_CUDA_fix\upstream\FindPackageMessage.cmake;C:\Users\David\miniconda3\Lib\site-packages\torch\share\cmake\Caffe2\public\cuda.cmake;C:\Users\David\miniconda3\Lib\site-packages\torch\share\cmake\Caffe2\public\mkl.cmake;C:\Users\David\miniconda3\Lib\site-packages\torch\share\cmake\Caffe2\public\mkldnn.cmake;C:\Users\David\miniconda3\Lib\site-packages\torch\share\cmake\Caffe2\public\utils.cmake;C:\Users\David\miniconda3\Lib\site-packages\torch\share\cmake\Torch\TorchConfig.cmake;C:\Users\David\miniconda3\Lib\site-packages\torch\share\cmake\Torch\TorchConfigVersion.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\David\Work\Projects\Paper\SAFT\code\code\python\build_python\charonload\torch\cxx_standard_17\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+    <Import Project="$(VCTargetsPath)\BuildCustomizations\CUDA 12.1.targets" />
+  </ImportGroup>
+</Project>

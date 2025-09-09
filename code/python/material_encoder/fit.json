@@ -1,0 +1,12 @@
+{
+    "texture": {
+        "bsdf": "pbr",
+        "lr": 0.0002,
+        "optimization_function": "Adam",
+        "overlap": 10,
+        "tile_resolution": 128,
+        "model_path": "./exercises_python/StandardSimulation/material_encoder/decoderSmallFcUp.pt",
+        "latent_path": "random",
+        "texture_resolution": 512
+    }
+}

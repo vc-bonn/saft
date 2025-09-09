@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\David\Work\Projects\Paper\SAFT\code\code\python\build_python\charonload\torch\cxx_standard_17\CMakeFiles\f16fae0fbe99f044af1f44db662067ba\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{118E8BCD-96CA-3BE7-A2E9-75C3F7AC6DF2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

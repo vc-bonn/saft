@@ -1,0 +1,347 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{339ED420-E903-3E30-AB2E-E1DF49457E28}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>torch_cxx_standard</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+    <Import Project="$(VCTargetsPath)\BuildCustomizations\CUDA 12.1.props" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\David\Work\Projects\Paper\SAFT\code\code\python\build_python\charonload\torch\cxx_standard_17\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">torch_cxx_standard.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">torch_cxx_standard</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\David\Work\Projects\Paper\SAFT\code\code\python\build_python\charonload\torch\cxx_standard_17\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">torch_cxx_standard.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">torch_cxx_standard</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\David\Work\Projects\Paper\SAFT\code\code\python\build_python\charonload\torch\cxx_standard_17\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">torch_cxx_standard.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">torch_cxx_standard</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\David\Work\Projects\Paper\SAFT\code\code\python\build_python\charonload\torch\cxx_standard_17\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">torch_cxx_standard.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">torch_cxx_standard</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Users/David/miniconda3/Lib/site-packages/torch/include" /external:I "C:/Users/David/miniconda3/Lib/site-packages/torch/include/torch/csrc/api/include" /external:I "C:/Program Files/NVIDIA Corporation/NvToolsExt//include" /external:I "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.1/include" /external:I "C:/Program Files/NVIDIA Corporation/NvToolsExt/include" /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>OldStyle</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;USE_DISTRIBUTED;USE_C10D_GLOO;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;USE_DISTRIBUTED;USE_C10D_GLOO;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\David\miniconda3\Lib\site-packages\torch\include;C:\Users\David\miniconda3\Lib\site-packages\torch\include\torch\csrc\api\include;C:\Program Files\NVIDIA Corporation\NvToolsExt\\include;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.1\include;C:\Program Files\NVIDIA Corporation\NvToolsExt\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\David\miniconda3\Lib\site-packages\torch\include;C:\Users\David\miniconda3\Lib\site-packages\torch\include\torch\csrc\api\include;C:\Program Files\NVIDIA Corporation\NvToolsExt\\include;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.1\include;C:\Program Files\NVIDIA Corporation\NvToolsExt\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>C:\Users\David\miniconda3\Lib\site-packages\torch\lib\c10.lib;C:\Users\David\miniconda3\Lib\site-packages\torch\lib\kineto.lib;C:\Program Files\NVIDIA Corporation\NvToolsExt\\lib\x64\nvToolsExt64_1.lib;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.1\lib\x64\cudart_static.lib;C:\Users\David\miniconda3\Lib\site-packages\torch\lib\caffe2_nvrtc.lib;C:\Users\David\miniconda3\Lib\site-packages\torch\lib\c10_cuda.lib;C:\Users\David\miniconda3\Lib\site-packages\torch\lib\torch.lib;C:\Users\David\miniconda3\Lib\site-packages\torch\lib\torch_cuda.lib;C:\Users\David\miniconda3\Lib\site-packages\torch\lib\torch_cpu.lib;-INCLUDE:?warp_size@cuda@at@@YAHXZ;C:\Users\David\miniconda3\Lib\site-packages\torch\lib\c10_cuda.lib;C:\Users\David\miniconda3\Lib\site-packages\torch\lib\c10.lib;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.1\lib\x64\cudart.lib;C:\Program Files\NVIDIA Corporation\NvToolsExt\lib\x64\nvToolsExt64_1.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>/lib;/lib/$(Configuration);/lib/intel64;/lib/intel64/$(Configuration);/lib/intel64_win;/lib/intel64_win/$(Configuration);/lib/win-x64;/lib/win-x64/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/David/Work/Projects/Paper/SAFT/code/code/python/build_python/charonload/torch/cxx_standard_17/Debug/torch_cxx_standard.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/David/Work/Projects/Paper/SAFT/code/code/python/build_python/charonload/torch/cxx_standard_17/Debug/torch_cxx_standard.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+    <CudaLink>
+      <AdditionalOptions>-forward-unknown-to-host-compiler -Wno-deprecated-gpu-targets </AdditionalOptions>
+      <PerformDeviceLink>false</PerformDeviceLink>
+    </CudaLink>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Users/David/miniconda3/Lib/site-packages/torch/include" /external:I "C:/Users/David/miniconda3/Lib/site-packages/torch/include/torch/csrc/api/include" /external:I "C:/Program Files/NVIDIA Corporation/NvToolsExt//include" /external:I "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.1/include" /external:I "C:/Program Files/NVIDIA Corporation/NvToolsExt/include" /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;USE_DISTRIBUTED;USE_C10D_GLOO;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;USE_DISTRIBUTED;USE_C10D_GLOO;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\David\miniconda3\Lib\site-packages\torch\include;C:\Users\David\miniconda3\Lib\site-packages\torch\include\torch\csrc\api\include;C:\Program Files\NVIDIA Corporation\NvToolsExt\\include;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.1\include;C:\Program Files\NVIDIA Corporation\NvToolsExt\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\David\miniconda3\Lib\site-packages\torch\include;C:\Users\David\miniconda3\Lib\site-packages\torch\include\torch\csrc\api\include;C:\Program Files\NVIDIA Corporation\NvToolsExt\\include;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.1\include;C:\Program Files\NVIDIA Corporation\NvToolsExt\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>C:\Users\David\miniconda3\Lib\site-packages\torch\lib\c10.lib;C:\Users\David\miniconda3\Lib\site-packages\torch\lib\kineto.lib;C:\Program Files\NVIDIA Corporation\NvToolsExt\\lib\x64\nvToolsExt64_1.lib;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.1\lib\x64\cudart_static.lib;C:\Users\David\miniconda3\Lib\site-packages\torch\lib\caffe2_nvrtc.lib;C:\Users\David\miniconda3\Lib\site-packages\torch\lib\c10_cuda.lib;C:\Users\David\miniconda3\Lib\site-packages\torch\lib\torch.lib;C:\Users\David\miniconda3\Lib\site-packages\torch\lib\torch_cuda.lib;C:\Users\David\miniconda3\Lib\site-packages\torch\lib\torch_cpu.lib;-INCLUDE:?warp_size@cuda@at@@YAHXZ;C:\Users\David\miniconda3\Lib\site-packages\torch\lib\c10_cuda.lib;C:\Users\David\miniconda3\Lib\site-packages\torch\lib\c10.lib;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.1\lib\x64\cudart.lib;C:\Program Files\NVIDIA Corporation\NvToolsExt\lib\x64\nvToolsExt64_1.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>/lib;/lib/$(Configuration);/lib/intel64;/lib/intel64/$(Configuration);/lib/intel64_win;/lib/intel64_win/$(Configuration);/lib/win-x64;/lib/win-x64/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/David/Work/Projects/Paper/SAFT/code/code/python/build_python/charonload/torch/cxx_standard_17/Release/torch_cxx_standard.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/David/Work/Projects/Paper/SAFT/code/code/python/build_python/charonload/torch/cxx_standard_17/Release/torch_cxx_standard.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+    <CudaLink>
+      <AdditionalOptions>-forward-unknown-to-host-compiler -Wno-deprecated-gpu-targets </AdditionalOptions>
+      <PerformDeviceLink>false</PerformDeviceLink>
+    </CudaLink>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Users/David/miniconda3/Lib/site-packages/torch/include" /external:I "C:/Users/David/miniconda3/Lib/site-packages/torch/include/torch/csrc/api/include" /external:I "C:/Program Files/NVIDIA Corporation/NvToolsExt//include" /external:I "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.1/include" /external:I "C:/Program Files/NVIDIA Corporation/NvToolsExt/include" /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;USE_DISTRIBUTED;USE_C10D_GLOO;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;USE_DISTRIBUTED;USE_C10D_GLOO;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\David\miniconda3\Lib\site-packages\torch\include;C:\Users\David\miniconda3\Lib\site-packages\torch\include\torch\csrc\api\include;C:\Program Files\NVIDIA Corporation\NvToolsExt\\include;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.1\include;C:\Program Files\NVIDIA Corporation\NvToolsExt\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\David\miniconda3\Lib\site-packages\torch\include;C:\Users\David\miniconda3\Lib\site-packages\torch\include\torch\csrc\api\include;C:\Program Files\NVIDIA Corporation\NvToolsExt\\include;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.1\include;C:\Program Files\NVIDIA Corporation\NvToolsExt\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>C:\Users\David\miniconda3\Lib\site-packages\torch\lib\c10.lib;C:\Users\David\miniconda3\Lib\site-packages\torch\lib\kineto.lib;C:\Program Files\NVIDIA Corporation\NvToolsExt\\lib\x64\nvToolsExt64_1.lib;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.1\lib\x64\cudart_static.lib;C:\Users\David\miniconda3\Lib\site-packages\torch\lib\caffe2_nvrtc.lib;C:\Users\David\miniconda3\Lib\site-packages\torch\lib\c10_cuda.lib;C:\Users\David\miniconda3\Lib\site-packages\torch\lib\torch.lib;C:\Users\David\miniconda3\Lib\site-packages\torch\lib\torch_cuda.lib;C:\Users\David\miniconda3\Lib\site-packages\torch\lib\torch_cpu.lib;-INCLUDE:?warp_size@cuda@at@@YAHXZ;C:\Users\David\miniconda3\Lib\site-packages\torch\lib\c10_cuda.lib;C:\Users\David\miniconda3\Lib\site-packages\torch\lib\c10.lib;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.1\lib\x64\cudart.lib;C:\Program Files\NVIDIA Corporation\NvToolsExt\lib\x64\nvToolsExt64_1.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>/lib;/lib/$(Configuration);/lib/intel64;/lib/intel64/$(Configuration);/lib/intel64_win;/lib/intel64_win/$(Configuration);/lib/win-x64;/lib/win-x64/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/David/Work/Projects/Paper/SAFT/code/code/python/build_python/charonload/torch/cxx_standard_17/MinSizeRel/torch_cxx_standard.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/David/Work/Projects/Paper/SAFT/code/code/python/build_python/charonload/torch/cxx_standard_17/MinSizeRel/torch_cxx_standard.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+    <CudaLink>
+      <AdditionalOptions>-forward-unknown-to-host-compiler -Wno-deprecated-gpu-targets </AdditionalOptions>
+      <PerformDeviceLink>false</PerformDeviceLink>
+    </CudaLink>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Users/David/miniconda3/Lib/site-packages/torch/include" /external:I "C:/Users/David/miniconda3/Lib/site-packages/torch/include/torch/csrc/api/include" /external:I "C:/Program Files/NVIDIA Corporation/NvToolsExt//include" /external:I "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.1/include" /external:I "C:/Program Files/NVIDIA Corporation/NvToolsExt/include" /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>OldStyle</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;USE_DISTRIBUTED;USE_C10D_GLOO;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;USE_DISTRIBUTED;USE_C10D_GLOO;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\David\miniconda3\Lib\site-packages\torch\include;C:\Users\David\miniconda3\Lib\site-packages\torch\include\torch\csrc\api\include;C:\Program Files\NVIDIA Corporation\NvToolsExt\\include;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.1\include;C:\Program Files\NVIDIA Corporation\NvToolsExt\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\David\miniconda3\Lib\site-packages\torch\include;C:\Users\David\miniconda3\Lib\site-packages\torch\include\torch\csrc\api\include;C:\Program Files\NVIDIA Corporation\NvToolsExt\\include;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.1\include;C:\Program Files\NVIDIA Corporation\NvToolsExt\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>C:\Users\David\miniconda3\Lib\site-packages\torch\lib\c10.lib;C:\Users\David\miniconda3\Lib\site-packages\torch\lib\kineto.lib;C:\Program Files\NVIDIA Corporation\NvToolsExt\\lib\x64\nvToolsExt64_1.lib;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.1\lib\x64\cudart_static.lib;C:\Users\David\miniconda3\Lib\site-packages\torch\lib\caffe2_nvrtc.lib;C:\Users\David\miniconda3\Lib\site-packages\torch\lib\c10_cuda.lib;C:\Users\David\miniconda3\Lib\site-packages\torch\lib\torch.lib;C:\Users\David\miniconda3\Lib\site-packages\torch\lib\torch_cuda.lib;C:\Users\David\miniconda3\Lib\site-packages\torch\lib\torch_cpu.lib;-INCLUDE:?warp_size@cuda@at@@YAHXZ;C:\Users\David\miniconda3\Lib\site-packages\torch\lib\c10_cuda.lib;C:\Users\David\miniconda3\Lib\site-packages\torch\lib\c10.lib;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.1\lib\x64\cudart.lib;C:\Program Files\NVIDIA Corporation\NvToolsExt\lib\x64\nvToolsExt64_1.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>/lib;/lib/$(Configuration);/lib/intel64;/lib/intel64/$(Configuration);/lib/intel64_win;/lib/intel64_win/$(Configuration);/lib/win-x64;/lib/win-x64/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/David/Work/Projects/Paper/SAFT/code/code/python/build_python/charonload/torch/cxx_standard_17/RelWithDebInfo/torch_cxx_standard.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/David/Work/Projects/Paper/SAFT/code/code/python/build_python/charonload/torch/cxx_standard_17/RelWithDebInfo/torch_cxx_standard.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+    <CudaLink>
+      <AdditionalOptions>-forward-unknown-to-host-compiler -Wno-deprecated-gpu-targets </AdditionalOptions>
+      <PerformDeviceLink>false</PerformDeviceLink>
+    </CudaLink>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\David\miniconda3\Lib\site-packages\charonload\cmake\torch\cxx_standard\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/David/miniconda3/Lib/site-packages/charonload/cmake/torch/cxx_standard/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/David/miniconda3/Lib/site-packages/charonload/cmake/torch/cxx_standard -BC:/Users/David/Work/Projects/Paper/SAFT/code/code/python/build_python/charonload/torch/cxx_standard_17 --check-stamp-file C:/Users/David/Work/Projects/Paper/SAFT/code/code/python/build_python/charonload/torch/cxx_standard_17/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeCUDAInformation.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CheckCXXCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\NVIDIA-CUDA.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Internal\CheckCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Internal\CheckFlagCommonConfig.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Platform\Windows-NVIDIA-CUDA.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Platform\WindowsPaths.cmake;C:\Users\David\Work\Projects\Paper\SAFT\code\code\python\build_python\CMakeFiles\3.27.9\CMakeCUDACompiler.cmake;C:\Users\David\Work\Projects\Paper\SAFT\code\code\python\build_python\CMakeFiles\3.27.9\CMakeCXXCompiler.cmake;C:\Users\David\Work\Projects\Paper\SAFT\code\code\python\build_python\CMakeFiles\3.27.9\CMakeRCCompiler.cmake;C:\Users\David\Work\Projects\Paper\SAFT\code\code\python\build_python\CMakeFiles\3.27.9\CMakeSystem.cmake;C:\Users\David\Work\Projects\Paper\SAFT\code\code\python\build_python\charonload\torch\cxx_standard_17\detect_cuda_compute_capabilities.cu;C:\Users\David\Work\Projects\Paper\SAFT\code\code\python\build_python\charonload\torch\cxx_standard_17\detect_cuda_version.cc;C:\Users\David\miniconda3\Lib\site-packages\torch\share\cmake\Caffe2\Caffe2Config.cmake;C:\Users\David\miniconda3\Lib\site-packages\torch\share\cmake\Caffe2\Caffe2Targets-release.cmake;C:\Users\David\miniconda3\Lib\site-packages\torch\share\cmake\Caffe2\Caffe2Targets.cmake;C:\Users\David\miniconda3\Lib\site-packages\torch\share\cmake\Caffe2\FindCUDAToolkit.cmake;C:\Users\David\miniconda3\Lib\site-packages\torch\share\cmake\Caffe2\Modules_CUDA_fix\FindCUDA.cmake;C:\Users\David\miniconda3\Lib\site-packages\torch\share\cmake\Caffe2\Modules_CUDA_fix\upstream\CMakeInitializeConfigs.cmake;C:\Users\David\miniconda3\Lib\site-packages\torch\share\cmake\Caffe2\Modules_CUDA_fix\upstream\FindCUDA.cmake;C:\Users\David\miniconda3\Lib\site-packages\torch\share\cmake\Caffe2\Modules_CUDA_fix\upstream\FindCUDA\select_compute_arch.cmake;C:\Users\David\miniconda3\Lib\site-packages\torch\share\cmake\Caffe2\Modules_CUDA_fix\upstream\FindPackageHandleStandardArgs.cmake;C:\Users\David\miniconda3\Lib\site-packages\torch\share\cmake\Caffe2\Modules_CUDA_fix\upstream\FindPackageMessage.cmake;C:\Users\David\miniconda3\Lib\site-packages\torch\share\cmake\Caffe2\public\cuda.cmake;C:\Users\David\miniconda3\Lib\site-packages\torch\share\cmake\Caffe2\public\mkl.cmake;C:\Users\David\miniconda3\Lib\site-packages\torch\share\cmake\Caffe2\public\mkldnn.cmake;C:\Users\David\miniconda3\Lib\site-packages\torch\share\cmake\Caffe2\public\utils.cmake;C:\Users\David\miniconda3\Lib\site-packages\torch\share\cmake\Torch\TorchConfig.cmake;C:\Users\David\miniconda3\Lib\site-packages\torch\share\cmake\Torch\TorchConfigVersion.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\David\Work\Projects\Paper\SAFT\code\code\python\build_python\charonload\torch\cxx_standard_17\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/David/miniconda3/Lib/site-packages/charonload/cmake/torch/cxx_standard/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/David/miniconda3/Lib/site-packages/charonload/cmake/torch/cxx_standard -BC:/Users/David/Work/Projects/Paper/SAFT/code/code/python/build_python/charonload/torch/cxx_standard_17 --check-stamp-file C:/Users/David/Work/Projects/Paper/SAFT/code/code/python/build_python/charonload/torch/cxx_standard_17/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeCUDAInformation.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CheckCXXCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\NVIDIA-CUDA.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Internal\CheckCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Internal\CheckFlagCommonConfig.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Platform\Windows-NVIDIA-CUDA.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Platform\WindowsPaths.cmake;C:\Users\David\Work\Projects\Paper\SAFT\code\code\python\build_python\CMakeFiles\3.27.9\CMakeCUDACompiler.cmake;C:\Users\David\Work\Projects\Paper\SAFT\code\code\python\build_python\CMakeFiles\3.27.9\CMakeCXXCompiler.cmake;C:\Users\David\Work\Projects\Paper\SAFT\code\code\python\build_python\CMakeFiles\3.27.9\CMakeRCCompiler.cmake;C:\Users\David\Work\Projects\Paper\SAFT\code\code\python\build_python\CMakeFiles\3.27.9\CMakeSystem.cmake;C:\Users\David\Work\Projects\Paper\SAFT\code\code\python\build_python\charonload\torch\cxx_standard_17\detect_cuda_compute_capabilities.cu;C:\Users\David\Work\Projects\Paper\SAFT\code\code\python\build_python\charonload\torch\cxx_standard_17\detect_cuda_version.cc;C:\Users\David\miniconda3\Lib\site-packages\torch\share\cmake\Caffe2\Caffe2Config.cmake;C:\Users\David\miniconda3\Lib\site-packages\torch\share\cmake\Caffe2\Caffe2Targets-release.cmake;C:\Users\David\miniconda3\Lib\site-packages\torch\share\cmake\Caffe2\Caffe2Targets.cmake;C:\Users\David\miniconda3\Lib\site-packages\torch\share\cmake\Caffe2\FindCUDAToolkit.cmake;C:\Users\David\miniconda3\Lib\site-packages\torch\share\cmake\Caffe2\Modules_CUDA_fix\FindCUDA.cmake;C:\Users\David\miniconda3\Lib\site-packages\torch\share\cmake\Caffe2\Modules_CUDA_fix\upstream\CMakeInitializeConfigs.cmake;C:\Users\David\miniconda3\Lib\site-packages\torch\share\cmake\Caffe2\Modules_CUDA_fix\upstream\FindCUDA.cmake;C:\Users\David\miniconda3\Lib\site-packages\torch\share\cmake\Caffe2\Modules_CUDA_fix\upstream\FindCUDA\select_compute_arch.cmake;C:\Users\David\miniconda3\Lib\site-packages\torch\share\cmake\Caffe2\Modules_CUDA_fix\upstream\FindPackageHandleStandardArgs.cmake;C:\Users\David\miniconda3\Lib\site-packages\torch\share\cmake\Caffe2\Modules_CUDA_fix\upstream\FindPackageMessage.cmake;C:\Users\David\miniconda3\Lib\site-packages\torch\share\cmake\Caffe2\public\cuda.cmake;C:\Users\David\miniconda3\Lib\site-packages\torch\share\cmake\Caffe2\public\mkl.cmake;C:\Users\David\miniconda3\Lib\site-packages\torch\share\cmake\Caffe2\public\mkldnn.cmake;C:\Users\David\miniconda3\Lib\site-packages\torch\share\cmake\Caffe2\public\utils.cmake;C:\Users\David\miniconda3\Lib\site-packages\torch\share\cmake\Torch\TorchConfig.cmake;C:\Users\David\miniconda3\Lib\site-packages\torch\share\cmake\Torch\TorchConfigVersion.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\David\Work\Projects\Paper\SAFT\code\code\python\build_python\charonload\torch\cxx_standard_17\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/David/miniconda3/Lib/site-packages/charonload/cmake/torch/cxx_standard/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/David/miniconda3/Lib/site-packages/charonload/cmake/torch/cxx_standard -BC:/Users/David/Work/Projects/Paper/SAFT/code/code/python/build_python/charonload/torch/cxx_standard_17 --check-stamp-file C:/Users/David/Work/Projects/Paper/SAFT/code/code/python/build_python/charonload/torch/cxx_standard_17/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeCUDAInformation.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CheckCXXCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\NVIDIA-CUDA.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Internal\CheckCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Internal\CheckFlagCommonConfig.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Platform\Windows-NVIDIA-CUDA.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Platform\WindowsPaths.cmake;C:\Users\David\Work\Projects\Paper\SAFT\code\code\python\build_python\CMakeFiles\3.27.9\CMakeCUDACompiler.cmake;C:\Users\David\Work\Projects\Paper\SAFT\code\code\python\build_python\CMakeFiles\3.27.9\CMakeCXXCompiler.cmake;C:\Users\David\Work\Projects\Paper\SAFT\code\code\python\build_python\CMakeFiles\3.27.9\CMakeRCCompiler.cmake;C:\Users\David\Work\Projects\Paper\SAFT\code\code\python\build_python\CMakeFiles\3.27.9\CMakeSystem.cmake;C:\Users\David\Work\Projects\Paper\SAFT\code\code\python\build_python\charonload\torch\cxx_standard_17\detect_cuda_compute_capabilities.cu;C:\Users\David\Work\Projects\Paper\SAFT\code\code\python\build_python\charonload\torch\cxx_standard_17\detect_cuda_version.cc;C:\Users\David\miniconda3\Lib\site-packages\torch\share\cmake\Caffe2\Caffe2Config.cmake;C:\Users\David\miniconda3\Lib\site-packages\torch\share\cmake\Caffe2\Caffe2Targets-release.cmake;C:\Users\David\miniconda3\Lib\site-packages\torch\share\cmake\Caffe2\Caffe2Targets.cmake;C:\Users\David\miniconda3\Lib\site-packages\torch\share\cmake\Caffe2\FindCUDAToolkit.cmake;C:\Users\David\miniconda3\Lib\site-packages\torch\share\cmake\Caffe2\Modules_CUDA_fix\FindCUDA.cmake;C:\Users\David\miniconda3\Lib\site-packages\torch\share\cmake\Caffe2\Modules_CUDA_fix\upstream\CMakeInitializeConfigs.cmake;C:\Users\David\miniconda3\Lib\site-packages\torch\share\cmake\Caffe2\Modules_CUDA_fix\upstream\FindCUDA.cmake;C:\Users\David\miniconda3\Lib\site-packages\torch\share\cmake\Caffe2\Modules_CUDA_fix\upstream\FindCUDA\select_compute_arch.cmake;C:\Users\David\miniconda3\Lib\site-packages\torch\share\cmake\Caffe2\Modules_CUDA_fix\upstream\FindPackageHandleStandardArgs.cmake;C:\Users\David\miniconda3\Lib\site-packages\torch\share\cmake\Caffe2\Modules_CUDA_fix\upstream\FindPackageMessage.cmake;C:\Users\David\miniconda3\Lib\site-packages\torch\share\cmake\Caffe2\public\cuda.cmake;C:\Users\David\miniconda3\Lib\site-packages\torch\share\cmake\Caffe2\public\mkl.cmake;C:\Users\David\miniconda3\Lib\site-packages\torch\share\cmake\Caffe2\public\mkldnn.cmake;C:\Users\David\miniconda3\Lib\site-packages\torch\share\cmake\Caffe2\public\utils.cmake;C:\Users\David\miniconda3\Lib\site-packages\torch\share\cmake\Torch\TorchConfig.cmake;C:\Users\David\miniconda3\Lib\site-packages\torch\share\cmake\Torch\TorchConfigVersion.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\David\Work\Projects\Paper\SAFT\code\code\python\build_python\charonload\torch\cxx_standard_17\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/David/miniconda3/Lib/site-packages/charonload/cmake/torch/cxx_standard/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/David/miniconda3/Lib/site-packages/charonload/cmake/torch/cxx_standard -BC:/Users/David/Work/Projects/Paper/SAFT/code/code/python/build_python/charonload/torch/cxx_standard_17 --check-stamp-file C:/Users/David/Work/Projects/Paper/SAFT/code/code/python/build_python/charonload/torch/cxx_standard_17/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeCUDAInformation.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CheckCXXCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\NVIDIA-CUDA.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Internal\CheckCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Internal\CheckFlagCommonConfig.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Platform\Windows-NVIDIA-CUDA.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Platform\WindowsPaths.cmake;C:\Users\David\Work\Projects\Paper\SAFT\code\code\python\build_python\CMakeFiles\3.27.9\CMakeCUDACompiler.cmake;C:\Users\David\Work\Projects\Paper\SAFT\code\code\python\build_python\CMakeFiles\3.27.9\CMakeCXXCompiler.cmake;C:\Users\David\Work\Projects\Paper\SAFT\code\code\python\build_python\CMakeFiles\3.27.9\CMakeRCCompiler.cmake;C:\Users\David\Work\Projects\Paper\SAFT\code\code\python\build_python\CMakeFiles\3.27.9\CMakeSystem.cmake;C:\Users\David\Work\Projects\Paper\SAFT\code\code\python\build_python\charonload\torch\cxx_standard_17\detect_cuda_compute_capabilities.cu;C:\Users\David\Work\Projects\Paper\SAFT\code\code\python\build_python\charonload\torch\cxx_standard_17\detect_cuda_version.cc;C:\Users\David\miniconda3\Lib\site-packages\torch\share\cmake\Caffe2\Caffe2Config.cmake;C:\Users\David\miniconda3\Lib\site-packages\torch\share\cmake\Caffe2\Caffe2Targets-release.cmake;C:\Users\David\miniconda3\Lib\site-packages\torch\share\cmake\Caffe2\Caffe2Targets.cmake;C:\Users\David\miniconda3\Lib\site-packages\torch\share\cmake\Caffe2\FindCUDAToolkit.cmake;C:\Users\David\miniconda3\Lib\site-packages\torch\share\cmake\Caffe2\Modules_CUDA_fix\FindCUDA.cmake;C:\Users\David\miniconda3\Lib\site-packages\torch\share\cmake\Caffe2\Modules_CUDA_fix\upstream\CMakeInitializeConfigs.cmake;C:\Users\David\miniconda3\Lib\site-packages\torch\share\cmake\Caffe2\Modules_CUDA_fix\upstream\FindCUDA.cmake;C:\Users\David\miniconda3\Lib\site-packages\torch\share\cmake\Caffe2\Modules_CUDA_fix\upstream\FindCUDA\select_compute_arch.cmake;C:\Users\David\miniconda3\Lib\site-packages\torch\share\cmake\Caffe2\Modules_CUDA_fix\upstream\FindPackageHandleStandardArgs.cmake;C:\Users\David\miniconda3\Lib\site-packages\torch\share\cmake\Caffe2\Modules_CUDA_fix\upstream\FindPackageMessage.cmake;C:\Users\David\miniconda3\Lib\site-packages\torch\share\cmake\Caffe2\public\cuda.cmake;C:\Users\David\miniconda3\Lib\site-packages\torch\share\cmake\Caffe2\public\mkl.cmake;C:\Users\David\miniconda3\Lib\site-packages\torch\share\cmake\Caffe2\public\mkldnn.cmake;C:\Users\David\miniconda3\Lib\site-packages\torch\share\cmake\Caffe2\public\utils.cmake;C:\Users\David\miniconda3\Lib\site-packages\torch\share\cmake\Torch\TorchConfig.cmake;C:\Users\David\miniconda3\Lib\site-packages\torch\share\cmake\Torch\TorchConfigVersion.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\David\Work\Projects\Paper\SAFT\code\code\python\build_python\charonload\torch\cxx_standard_17\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\Users\David\miniconda3\Lib\site-packages\charonload\cmake\torch\cxx_standard\torch_cxx_standard.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\David\Work\Projects\Paper\SAFT\code\code\python\build_python\charonload\torch\cxx_standard_17\ZERO_CHECK.vcxproj">
+      <Project>{B492346F-3C99-3A47-AD95-EADBCC26C903}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+    <Import Project="$(VCTargetsPath)\BuildCustomizations\CUDA 12.1.targets" />
+  </ImportGroup>
+</Project>

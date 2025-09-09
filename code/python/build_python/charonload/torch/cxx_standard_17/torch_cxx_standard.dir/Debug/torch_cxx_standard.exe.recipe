@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project>
+  <ProjectOutputs>
+    <ProjectOutput>
+      <FullPath>C:\Users\David\Work\Projects\Paper\SAFT\code\code\python\build_python\charonload\torch\cxx_standard_17\x64\Debug\ZERO_CHECK</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\David\Work\Projects\Paper\SAFT\code\code\python\build_python\charonload\torch\cxx_standard_17\Debug\torch_cxx_standard.exe</FullPath>
+    </ProjectOutput>
+  </ProjectOutputs>
+  <ContentFiles />
+  <SatelliteDlls />
+  <NonRecipeFileRefs />
+</Project>

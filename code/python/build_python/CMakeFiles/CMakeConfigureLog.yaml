@@ -1,0 +1,1274 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineSystem.cmake:211 (message)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      The system is: Windows - 10.0.26100 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      MSBuild version 17.8.3+195e7f5a3 for .NET Framework
+      Build started 24.07.2025 11:03:34.
+      
+      Project "C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\CMakeFiles\\3.27.9\\CompilerIdC\\CompilerIdC.vcxproj" on node 1 (default targets).
+      PrepareForBuild:
+        Creating directory "Debug\\".
+        Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+        Creating directory "Debug\\CompilerIdC.tlog\\".
+      InitializeBuildStatus:
+        Creating "Debug\\CompilerIdC.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        Touching "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+        CMakeCCompilerId.c
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
+        CompilerIdC.vcxproj -> C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\CMakeFiles\\3.27.9\\CompilerIdC\\CompilerIdC.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_C_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Deleting file "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
+        Touching "Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate".
+      Done Building Project "C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\CMakeFiles\\3.27.9\\CompilerIdC\\CompilerIdC.vcxproj" (default targets).
+      
+      Build succeeded.
+          0 Warning(s)
+          0 Error(s)
+      
+      Time Elapsed 00:00:00.83
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+      
+      The C compiler identification is MSVC, found in:
+        C:/Users/David/Work/Projects/Paper/SAFT/code/code/python/build_python/CMakeFiles/3.27.9/CompilerIdC/CompilerIdC.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      MSBuild version 17.8.3+195e7f5a3 for .NET Framework
+      Build started 24.07.2025 11:03:35.
+      
+      Project "C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\CMakeFiles\\3.27.9\\CompilerIdCXX\\CompilerIdCXX.vcxproj" on node 1 (default targets).
+      PrepareForBuild:
+        Creating directory "Debug\\".
+        Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+        Creating directory "Debug\\CompilerIdCXX.tlog\\".
+      InitializeBuildStatus:
+        Creating "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        Touching "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\CMakeFiles\\3.27.9\\CompilerIdCXX\\CompilerIdCXX.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Deleting file "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+        Touching "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate".
+      Done Building Project "C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\CMakeFiles\\3.27.9\\CompilerIdCXX\\CompilerIdCXX.vcxproj" (default targets).
+      
+      Build succeeded.
+          0 Warning(s)
+          0 Error(s)
+      
+      Time Elapsed 00:00:00.61
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        C:/Users/David/Work/Projects/Paper/SAFT/code/code/python/build_python/CMakeFiles/3.27.9/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:53 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCUDACompiler.cmake:307 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the CUDA compiler identification source file "CMakeCUDACompilerId.cu" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags: --keep;--keep-dir;tmp -v
+      
+      The output was:
+      0
+      MSBuild version 17.8.3+195e7f5a3 for .NET Framework
+      Build started 24.07.2025 11:03:36.
+      
+      Project "C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\CMakeFiles\\3.27.9\\CompilerIdCUDA\\CompilerIdCUDA.vcxproj" on node 1 (default targets).
+      PrepareForBuild:
+        Creating directory "Debug\\".
+        Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+        Creating directory "Debug\\CompilerIdCUDA.tlog\\".
+      InitializeBuildStatus:
+        Creating "Debug\\CompilerIdCUDA.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        Touching "Debug\\CompilerIdCUDA.tlog\\unsuccessfulbuild".
+      AddCudaCompileDeps:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe /E /nologo /showIncludes /TP /D__CUDACC__ /D__CUDACC_VER_MAJOR__=12 /D__CUDACC_VER_MINOR__=1 /D_MBCS /I"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.1\\include" /I"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.1\\bin" /I"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.1\\include" /I. /FIcuda_runtime.h /c C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\CMakeFiles\\3.27.9\\CompilerIdCUDA\\CMakeCUDACompilerId.cu 
+      Project "C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\CMakeFiles\\3.27.9\\CompilerIdCUDA\\CompilerIdCUDA.vcxproj" (1) is building "C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\CMakeFiles\\3.27.9\\CompilerIdCUDA\\CompilerIdCUDA.vcxproj" (1:2) on node 1 (CudaBuildCore target(s)).
+      CudaBuildCore:
+        Compiling CUDA source file CMakeCUDACompilerId.cu...
+        Creating directory "C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\CMakeFiles\\3.27.9\\CompilerIdCUDA\\x64\\Debug".
+        cmd.exe /C "C:\\Users\\David\\AppData\\Local\\Temp\\tmp72af6272346a4a91a19297d0b562e053.cmd"
+        "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.1\\bin\\nvcc.exe" -gencode=arch=compute_52,code=\\"sm_52,compute_52\\" --use-local-env -ccbin "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64" -x cu   -I"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.1\\include" -I"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.1\\include"  -G   --keep-dir x64\\Debug  -maxrregcount=0   --machine 64 --compile -cudart static -v -g  -D_MBCS -Xcompiler "/EHsc /W0 /nologo /Od /FS /Zi /RTC1 /MDd " -Xcompiler "/FdDebug\\vc143.pdb" -o C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\CMakeFiles\\3.27.9\\CompilerIdCUDA\\x64\\Debug\\CMakeCUDACompilerId.cu.obj "C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\CMakeFiles\\3.27.9\\CompilerIdCUDA\\CMakeCUDACompilerId.cu"
+        
+        C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\CMakeFiles\\3.27.9\\CompilerIdCUDA>"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.1\\bin\\nvcc.exe" -gencode=arch=compute_52,code=\\"sm_52,compute_52\\" --use-local-env -ccbin "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64" -x cu   -I"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.1\\include" -I"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.1\\include"  -G   --keep-dir x64\\Debug  -maxrregcount=0   --machine 64 --compile -cudart static -v -g  -D_MBCS -Xcompiler "/EHsc /W0 /nologo /Od /FS /Zi /RTC1 /MDd " -Xcompiler "/FdDebug\\vc143.pdb" -o C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\CMakeFiles\\3.27.9\\CompilerIdCUDA\\x64\\Debug\\CMakeCUDACompilerId.cu.obj "C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\CMakeFiles\\3.27.9\\CompilerIdCUDA\\CMakeCUDACompilerId.cu" 
+        #$ _NVVM_BRANCH_=nvvm
+        #$ _SPACE_= 
+        #$ _CUDART_=cudart
+        #$ _HERE_=C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.1\\bin
+        #$ _THERE_=C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.1\\bin
+        #$ _TARGET_SIZE_=
+        #$ _TARGET_DIR_=
+        #$ _TARGET_SIZE_=64
+        #$ _WIN_PLATFORM_=x64
+        #$ TOP=C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.1\\bin/..
+        #$ NVVMIR_LIBRARY_DIR=C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.1\\bin/../nvvm/libdevice
+        #$ PATH=C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.1\\bin/../nvvm/bin;C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.1\\bin;C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.1\\bin/../lib;C:\\Users\\David\\miniconda3\\condabin;C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64;C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.22621.0\\x64;;C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.22621.0\\x86;;C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\tools;C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\ide;C:\\Program Files (x86)\\HTML Help Workshop;;C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64;C:\\WINDOWS\\Microsoft.NET\\Framework64\\v4.0.30319\\;C:\\WINDOWS\\Microsoft.NET\\Framework\\v4.0.30319\\;C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin;C:\\WINDOWS\\Microsoft.NET\\Framework\\v4.0.30319\\;;C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.1\\bin;C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.1\\libnvvp;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\dotnet\\;C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\;C:\\Program Files\\Git\\cmd;C:\\Program Files\\NVIDIA Corporation\\Nsight Compute 2023.1.1\\;C:\\Program Files\\CMake\\bin;C:\\Program Files\\MATLAB\\R2023b\\bin;;C:\\Program Files\\NVIDIA Corporation\\NVIDIA app\\NvDLISR;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\Docker\\Docker\\resources\\bin;C:\\Users\\David\\miniconda3\\lib\\site-packages\\torch\\lib;C:\\Users\\David\\miniconda3;C:\\Users\\David\\miniconda3\\envs;C:\\Users\\David\\miniconda3\\Library\\mingw-w64\\bin;C:\\Users\\David\\miniconda3\\Library\\usr\\bin;C:\\Users\\David\\miniconda3\\Library\\bin;C:\\Users\\David\\miniconda3\\Scripts;C:\\Users\\David\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\David\\.dotnet\\tools;C:\\Users\\David\\AppData\\Local\\Programs\\MiKTeX\\miktex\\bin\\x64\\;C:\\Users\\David\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Program Files\\CMake\\bin;C:\\Users\\David\\Desktop\\AMGX;C:\\Users\\David\\Desktop\\AMGX\\build;C:\\Users\\David\\Desktop\\AMGX\\build\\Release;;c:\\Users\\David\\.vscode\\extensions\\ms-python.debugpy-2025.10.0-win32-x64\\bundled\\scripts\\noConfigScripts;
+        #$ INCLUDES="-IC:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.1\\bin/../include"  
+        #$ LIBRARIES=  "/LIBPATH:C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.1\\bin/../lib/x64"
+        #$ CUDAFE_FLAGS=--sdk_dir "C:\\Program Files (x86)\\Windows Kits\\10"
+        #$ PTXAS_FLAGS=
+        CMakeCUDACompilerId.cu
+        #$ resource file C:\\Users\\David\\AppData\\Local\\Temp/tmpxft_000a5490_00000000-8.res: [-D__CUDA_ARCH_LIST__=520 -nologo -E -TP -EHsc -D__CUDACC__ -D__NVCC__ -D__CUDACC_DEBUG__  /EHsc /W0 /nologo /Od /FS /Zi /RTC1 /MDd /FdDebug\\vc143.pdb -I"C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.1/include" -I"C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.1/include" "-IC:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.1\\bin/../include"    -D "_MBCS" -D__CUDACC_VER_MAJOR__=12 -D__CUDACC_VER_MINOR__=1 -D__CUDACC_VER_BUILD__=105 -D__CUDA_API_VER_MAJOR__=12 -D__CUDA_API_VER_MINOR__=1 -D__NVCC_DIAG_PRAGMA_SUPPORT__=1 -FI "cuda_runtime.h" -Zi "C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\CMakeFiles\\3.27.9\\CompilerIdCUDA\\CMakeCUDACompilerId.cu" ]
+        #$ cl.exe @"C:\\Users\\David\\AppData\\Local\\Temp/tmpxft_000a5490_00000000-8.res" > "C:/Users/David/AppData/Local/Temp/tmpxft_000a5490_00000000-6_CMakeCUDACompilerId.cpp4.ii" 
+        CMakeCUDACompilerId.cu
+        #$ erase C:\\Users\\David\\AppData\\Local\\Temp/tmpxft_000a5490_00000000-8.res
+        #$ cudafe++ --microsoft_version=1938 --msvc_target_version=1938 --compiler_bindir "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.38.33130/bin/HostX64/x64/../../../../../../.." --display_error_number --orig_src_file_name "C:/Users/David/Work/Projects/Paper/SAFT/code/code/python/build_python/CMakeFiles/3.27.9/CompilerIdCUDA/CMakeCUDACompilerId.cu" --orig_src_path_name "C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\CMakeFiles\\3.27.9\\CompilerIdCUDA\\CMakeCUDACompilerId.cu" --allow_managed --debug_mode --sdk_dir "C:\\Program Files (x86)\\Windows Kits\\10" --m64 --parse_templates --gen_c_file_name "C:/Users/David/AppData/Local/Temp/tmpxft_000a5490_00000000-7_CMakeCUDACompilerId.cudafe1.cpp" --stub_file_name "tmpxft_000a5490_00000000-7_CMakeCUDACompilerId.cudafe1.stub.c" --gen_module_id_file --module_id_file_name "C:/Users/David/AppData/Local/Temp/tmpxft_000a5490_00000000-5_CMakeCUDACompilerId.module_id" "C:/Users/David/AppData/Local/Temp/tmpxft_000a5490_00000000-6_CMakeCUDACompilerId.cpp4.ii" 
+        #$ resource file C:\\Users\\David\\AppData\\Local\\Temp/tmpxft_000a5490_00000000-10.res: [-D__CUDA_ARCH__=520 -D__CUDA_ARCH_LIST__=520 -nologo -E -TP  -DCUDA_DOUBLE_MATH_FUNCTIONS -EHsc -D__CUDACC__ -D__NVCC__ -D__CUDACC_DEBUG__  /EHsc /W0 /nologo /Od /FS /Zi /RTC1 /MDd /FdDebug\\vc143.pdb -I"C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.1/include" -I"C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.1/include" "-IC:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.1\\bin/../include"    -D "_MBCS" -D__CUDACC_VER_MAJOR__=12 -D__CUDACC_VER_MINOR__=1 -D__CUDACC_VER_BUILD__=105 -D__CUDA_API_VER_MAJOR__=12 -D__CUDA_API_VER_MINOR__=1 -D__NVCC_DIAG_PRAGMA_SUPPORT__=1 -FI "cuda_runtime.h" -Zi "C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\CMakeFiles\\3.27.9\\CompilerIdCUDA\\CMakeCUDACompilerId.cu" ]
+        #$ cl.exe @"C:\\Users\\David\\AppData\\Local\\Temp/tmpxft_000a5490_00000000-10.res" > "C:/Users/David/AppData/Local/Temp/tmpxft_000a5490_00000000-9_CMakeCUDACompilerId.cpp1.ii" 
+        CMakeCUDACompilerId.cu
+        #$ erase C:\\Users\\David\\AppData\\Local\\Temp/tmpxft_000a5490_00000000-10.res
+        #$ cicc --microsoft_version=1938 --msvc_target_version=1938 --compiler_bindir "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.38.33130/bin/HostX64/x64/../../../../../../.." --display_error_number --orig_src_file_name "C:/Users/David/Work/Projects/Paper/SAFT/code/code/python/build_python/CMakeFiles/3.27.9/CompilerIdCUDA/CMakeCUDACompilerId.cu" --orig_src_path_name "C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\CMakeFiles\\3.27.9\\CompilerIdCUDA\\CMakeCUDACompilerId.cu" --allow_managed --debug_mode --sdk_dir "C:\\Program Files (x86)\\Windows Kits\\10"  -arch compute_52 -m64 --no-version-ident -ftz=0 -prec_div=1 -prec_sqrt=1 -fmad=1 --include_file_name "tmpxft_000a5490_00000000-4_CMakeCUDACompilerId.fatbin.c" -g -O0 -tused --module_id_file_name "C:/Users/David/AppData/Local/Temp/tmpxft_000a5490_00000000-5_CMakeCUDACompilerId.module_id" --gen_c_file_name "C:/Users/David/AppData/Local/Temp/tmpxft_000a5490_00000000-7_CMakeCUDACompilerId.cudafe1.c" --stub_file_name "C:/Users/David/AppData/Local/Temp/tmpxft_000a5490_00000000-7_CMakeCUDACompilerId.cudafe1.stub.c" --gen_device_file_name "C:/Users/David/AppData/Local/Temp/tmpxft_000a5490_00000000-7_CMakeCUDACompilerId.cudafe1.gpu"  "C:/Users/David/AppData/Local/Temp/tmpxft_000a5490_00000000-9_CMakeCUDACompilerId.cpp1.ii" -o "C:/Users/David/AppData/Local/Temp/tmpxft_000a5490_00000000-7_CMakeCUDACompilerId.ptx"
+        #$ ptxas -arch=sm_52 -m64 -g --dont-merge-basicblocks --return-at-end "C:/Users/David/AppData/Local/Temp/tmpxft_000a5490_00000000-7_CMakeCUDACompilerId.ptx"  -o "C:/Users/David/AppData/Local/Temp/tmpxft_000a5490_00000000-11_CMakeCUDACompilerId.sm_52.cubin" 
+        #$ fatbinary -64 --ident="C:/Users/David/Work/Projects/Paper/SAFT/code/code/python/build_python/CMakeFiles/3.27.9/CompilerIdCUDA/CMakeCUDACompilerId.cu" --cmdline="-g --dont-merge-basicblocks --return-at-end " --cicc-cmdline="-ftz=0 -prec_div=1 -prec_sqrt=1 -fmad=1 " -g "--image3=kind=elf,sm=52,file=C:/Users/David/AppData/Local/Temp/tmpxft_000a5490_00000000-11_CMakeCUDACompilerId.sm_52.cubin" "--image3=kind=ptx,sm=52,file=C:/Users/David/AppData/Local/Temp/tmpxft_000a5490_00000000-7_CMakeCUDACompilerId.ptx" --embedded-fatbin="C:/Users/David/AppData/Local/Temp/tmpxft_000a5490_00000000-4_CMakeCUDACompilerId.fatbin.c" 
+        #$ erase C:/Users/David/AppData/Local/Temp/tmpxft_000a5490_00000000-4_CMakeCUDACompilerId.fatbin
+        #$ resource file C:\\Users\\David\\AppData\\Local\\Temp/tmpxft_000a5490_00000000-12.res: [-D__CUDA_ARCH__=520 -D__CUDA_ARCH_LIST__=520 -nologo -c -TP  -DCUDA_DOUBLE_MATH_FUNCTIONS -EHsc /EHsc /W0 /nologo /Od /FS /Zi /RTC1 /MDd /FdDebug\\vc143.pdb -I"C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.1/include" -I"C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.1/include" "-IC:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.1\\bin/../include"   -Zi "C:\\Users\\David\\AppData\\Local\\Temp\\tmpxft_000a5490_00000000-7_CMakeCUDACompilerId.cudafe1.cpp" ]
+        #$ cl.exe @"C:\\Users\\David\\AppData\\Local\\Temp/tmpxft_000a5490_00000000-12.res" -Fo"C:/Users/David/Work/Projects/Paper/SAFT/code/code/python/build_python/CMakeFiles/3.27.9/CompilerIdCUDA/x64/Debug/CMakeCUDACompilerId.cu.obj" 
+        tmpxft_000a5490_00000000-7_CMakeCUDACompilerId.cudafe1.cpp
+        #$ erase C:\\Users\\David\\AppData\\Local\\Temp/tmpxft_000a5490_00000000-12.res
+      Done Building Project "C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\CMakeFiles\\3.27.9\\CompilerIdCUDA\\CompilerIdCUDA.vcxproj" (CudaBuildCore target(s)).
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCUDA.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.1\\lib\\x64" cudart_static.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCUDA.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCUDA.lib" /MACHINE:X64 C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\CMakeFiles\\3.27.9\\CompilerIdCUDA\\x64\\Debug\\CMakeCUDACompilerId.cu.obj
+           Creating library .\\CompilerIdCUDA.lib and object .\\CompilerIdCUDA.exp
+      LINK : warning LNK4098: defaultlib 'LIBCMT' conflicts with use of other libs; use /NODEFAULTLIB:library [C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\CMakeFiles\\3.27.9\\CompilerIdCUDA\\CompilerIdCUDA.vcxproj]
+        CompilerIdCUDA.vcxproj -> C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\CMakeFiles\\3.27.9\\CompilerIdCUDA\\CompilerIdCUDA.exe
+      PostBuildEvent:
+        echo CMAKE_CUDA_COMPILER=C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.1\\bin\\nvcc.exe
+        :VCEnd
+        CMAKE_CUDA_COMPILER=C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.1\\bin\\nvcc.exe
+      FinalizeBuildStatus:
+        Deleting file "Debug\\CompilerIdCUDA.tlog\\unsuccessfulbuild".
+        Touching "Debug\\CompilerIdCUDA.tlog\\CompilerIdCUDA.lastbuildstate".
+      Done Building Project "C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\CMakeFiles\\3.27.9\\CompilerIdCUDA\\CompilerIdCUDA.vcxproj" (default targets).
+      
+      Build succeeded.
+      
+      "C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\CMakeFiles\\3.27.9\\CompilerIdCUDA\\CompilerIdCUDA.vcxproj" (default target) (1) ->
+      (Link target) -> 
+        LINK : warning LNK4098: defaultlib 'LIBCMT' conflicts with use of other libs; use /NODEFAULTLIB:library [C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\CMakeFiles\\3.27.9\\CompilerIdCUDA\\CompilerIdCUDA.vcxproj]
+      
+          1 Warning(s)
+          0 Error(s)
+      
+      Time Elapsed 00:00:02.73
+      
+      
+      Compilation of the CUDA compiler identification source "CMakeCUDACompilerId.cu" produced "CompilerIdCUDA.exe"
+      
+      Compilation of the CUDA compiler identification source "CMakeCUDACompilerId.cu" produced "CompilerIdCUDA.exp"
+      
+      Compilation of the CUDA compiler identification source "CMakeCUDACompilerId.cu" produced "CompilerIdCUDA.lib"
+      
+      Compilation of the CUDA compiler identification source "CMakeCUDACompilerId.cu" produced "CompilerIdCUDA.vcxproj"
+      
+      The CUDA compiler identification is NVIDIA, found in:
+        C:/Users/David/Work/Projects/Paper/SAFT/code/code/python/build_python/CMakeFiles/3.27.9/CompilerIdCUDA/CompilerIdCUDA.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCUDACompiler.cmake:579 (message)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed CUDA nvcc include information:
+        found 'INCLUDES=' string: ["-IC:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.1\\bin/../include"  ]
+      
+      
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "C:/Users/David/Work/Projects/Paper/SAFT/code/code/python/build_python/CMakeFiles/CMakeScratch/TryCompile-r5dlgx"
+      binary: "C:/Users/David/Work/Projects/Paper/SAFT/code/code/python/build_python/CMakeFiles/CMakeScratch/TryCompile-r5dlgx"
+    cmakeVariables:
+      CMAKE_CUDA_ARCHITECTURES: "52"
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/David/Work/Projects/Paper/SAFT/code/code/python/build_python/CMakeFiles/CMakeScratch/TryCompile-r5dlgx'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_7b705.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.8.3+195e7f5a3 for .NET Framework
+        Build started 24.07.2025 11:03:39.
+        
+        Project "C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\CMakeFiles\\CMakeScratch\\TryCompile-r5dlgx\\cmTC_7b705.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_7b705.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\CMakeFiles\\CMakeScratch\\TryCompile-r5dlgx\\Debug\\".
+          Creating directory "cmTC_7b705.dir\\Debug\\cmTC_7b705.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_7b705.dir\\Debug\\cmTC_7b705.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_7b705.dir\\Debug\\cmTC_7b705.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_7b705.dir\\Debug\\\\" /Fd"cmTC_7b705.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.27\\Modules\\CMakeCCompilerABI.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.38.33133 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_7b705.dir\\Debug\\\\" /Fd"cmTC_7b705.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.27\\Modules\\CMakeCCompilerABI.c"
+          CMakeCCompilerABI.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\CMakeFiles\\CMakeScratch\\TryCompile-r5dlgx\\Debug\\cmTC_7b705.exe" /INCREMENTAL /ILK:"cmTC_7b705.dir\\Debug\\cmTC_7b705.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/David/Work/Projects/Paper/SAFT/code/code/python/build_python/CMakeFiles/CMakeScratch/TryCompile-r5dlgx/Debug/cmTC_7b705.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/David/Work/Projects/Paper/SAFT/code/code/python/build_python/CMakeFiles/CMakeScratch/TryCompile-r5dlgx/Debug/cmTC_7b705.lib" /MACHINE:X64  /machine:x64 cmTC_7b705.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_7b705.vcxproj -> C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\CMakeFiles\\CMakeScratch\\TryCompile-r5dlgx\\Debug\\cmTC_7b705.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_7b705.dir\\Debug\\cmTC_7b705.tlog\\unsuccessfulbuild".
+          Touching "cmTC_7b705.dir\\Debug\\cmTC_7b705.tlog\\cmTC_7b705.lastbuildstate".
+        Done Building Project "C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\CMakeFiles\\CMakeScratch\\TryCompile-r5dlgx\\cmTC_7b705.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.54
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "C:/Users/David/Work/Projects/Paper/SAFT/code/code/python/build_python/CMakeFiles/CMakeScratch/TryCompile-mhybmt"
+      binary: "C:/Users/David/Work/Projects/Paper/SAFT/code/code/python/build_python/CMakeFiles/CMakeScratch/TryCompile-mhybmt"
+    cmakeVariables:
+      CMAKE_CUDA_ARCHITECTURES: "52"
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/David/Work/Projects/Paper/SAFT/code/code/python/build_python/CMakeFiles/CMakeScratch/TryCompile-mhybmt'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_6e19d.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.8.3+195e7f5a3 for .NET Framework
+        Build started 24.07.2025 11:03:39.
+        
+        Project "C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\CMakeFiles\\CMakeScratch\\TryCompile-mhybmt\\cmTC_6e19d.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_6e19d.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\CMakeFiles\\CMakeScratch\\TryCompile-mhybmt\\Debug\\".
+          Creating directory "cmTC_6e19d.dir\\Debug\\cmTC_6e19d.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_6e19d.dir\\Debug\\cmTC_6e19d.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_6e19d.dir\\Debug\\cmTC_6e19d.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_6e19d.dir\\Debug\\\\" /Fd"cmTC_6e19d.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.27\\Modules\\CMakeCXXCompilerABI.cpp"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.38.33133 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_6e19d.dir\\Debug\\\\" /Fd"cmTC_6e19d.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.27\\Modules\\CMakeCXXCompilerABI.cpp"
+          CMakeCXXCompilerABI.cpp
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\CMakeFiles\\CMakeScratch\\TryCompile-mhybmt\\Debug\\cmTC_6e19d.exe" /INCREMENTAL /ILK:"cmTC_6e19d.dir\\Debug\\cmTC_6e19d.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/David/Work/Projects/Paper/SAFT/code/code/python/build_python/CMakeFiles/CMakeScratch/TryCompile-mhybmt/Debug/cmTC_6e19d.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/David/Work/Projects/Paper/SAFT/code/code/python/build_python/CMakeFiles/CMakeScratch/TryCompile-mhybmt/Debug/cmTC_6e19d.lib" /MACHINE:X64  /machine:x64 cmTC_6e19d.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_6e19d.vcxproj -> C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\CMakeFiles\\CMakeScratch\\TryCompile-mhybmt\\Debug\\cmTC_6e19d.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_6e19d.dir\\Debug\\cmTC_6e19d.tlog\\unsuccessfulbuild".
+          Touching "cmTC_6e19d.dir\\Debug\\cmTC_6e19d.tlog\\cmTC_6e19d.lastbuildstate".
+        Done Building Project "C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\CMakeFiles\\CMakeScratch\\TryCompile-mhybmt\\cmTC_6e19d.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.56
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeTestCUDACompiler.cmake:19 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Detecting CUDA compiler ABI info"
+    directories:
+      source: "C:/Users/David/Work/Projects/Paper/SAFT/code/code/python/build_python/CMakeFiles/CMakeScratch/TryCompile-okswuq"
+      binary: "C:/Users/David/Work/Projects/Paper/SAFT/code/code/python/build_python/CMakeFiles/CMakeScratch/TryCompile-okswuq"
+    cmakeVariables:
+      CMAKE_CUDA_ARCHITECTURES: "52"
+      CMAKE_CUDA_FLAGS: "-D_WINDOWS -Xcompiler=\" /EHsc\""
+      CMAKE_CUDA_FLAGS_DEBUG: "-Xcompiler=\" -Ob0 -Od /RTC1\""
+      CMAKE_CUDA_RUNTIME_LIBRARY: "Static"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_CUDA_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/David/Work/Projects/Paper/SAFT/code/code/python/build_python/CMakeFiles/CMakeScratch/TryCompile-okswuq'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_1bb46.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.8.3+195e7f5a3 for .NET Framework
+        Build started 24.07.2025 11:03:40.
+        
+        Project "C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\CMakeFiles\\CMakeScratch\\TryCompile-okswuq\\cmTC_1bb46.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_1bb46.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\CMakeFiles\\CMakeScratch\\TryCompile-okswuq\\Debug\\".
+          Creating directory "cmTC_1bb46.dir\\Debug\\cmTC_1bb46.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_1bb46.dir\\Debug\\cmTC_1bb46.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_1bb46.dir\\Debug\\cmTC_1bb46.tlog\\unsuccessfulbuild".
+        AddCudaCompileDeps:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe /E /nologo /showIncludes /TP /D__CUDACC__ /D__CUDACC_VER_MAJOR__=12 /D__CUDACC_VER_MINOR__=1 /D_WINDOWS /DCMAKE_INTDIR="Debug" /D_MBCS /DCMAKE_INTDIR="Debug" /I"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.1\\bin" /I"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.1\\include" /I. /FIcuda_runtime.h /c "C:\\Program Files\\CMake\\share\\cmake-3.27\\Modules\\CMakeCUDACompilerABI.cu" 
+        Project "C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\CMakeFiles\\CMakeScratch\\TryCompile-okswuq\\cmTC_1bb46.vcxproj" (1) is building "C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\CMakeFiles\\CMakeScratch\\TryCompile-okswuq\\cmTC_1bb46.vcxproj" (1:2) on node 1 (CudaBuildCore target(s)).
+        CudaBuildCore:
+          Compiling CUDA source file ..\\..\\..\\..\\..\\..\\..\\..\\..\\..\\..\\..\\..\\Program Files\\CMake\\share\\cmake-3.27\\Modules\\CMakeCUDACompilerABI.cu...
+          cmd.exe /C "C:\\Users\\David\\AppData\\Local\\Temp\\tmp79a90d01b8064556a71667f8b9aab698.cmd"
+          "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.1\\bin\\nvcc.exe"  --use-local-env -ccbin "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64" -x cu    -I"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.1\\include"     --keep-dir x64\\Debug  -maxrregcount=0   --machine 64 --compile -cudart static --generate-code=arch=compute_52,code=[compute_52,sm_52] -Xcompiler="/EHsc -Ob0 -Zi -v" -g  -D_WINDOWS -D"CMAKE_INTDIR=\\"Debug\\"" -D_MBCS -D"CMAKE_INTDIR=\\"Debug\\"" -Xcompiler "/EHsc /W1 /nologo /Od /FS /Zi /RTC1 /MDd " -Xcompiler "/FdcmTC_1bb46.dir\\Debug\\vc143.pdb" -o cmTC_1bb46.dir\\Debug\\CMakeCUDACompilerABI.obj "C:\\Program Files\\CMake\\share\\cmake-3.27\\Modules\\CMakeCUDACompilerABI.cu"
+          
+          C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\CMakeFiles\\CMakeScratch\\TryCompile-okswuq>"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.1\\bin\\nvcc.exe"  --use-local-env -ccbin "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64" -x cu    -I"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.1\\include"     --keep-dir x64\\Debug  -maxrregcount=0   --machine 64 --compile -cudart static --generate-code=arch=compute_52,code=[compute_52,sm_52] -Xcompiler="/EHsc -Ob0 -Zi -v" -g  -D_WINDOWS -D"CMAKE_INTDIR=\\"Debug\\"" -D_MBCS -D"CMAKE_INTDIR=\\"Debug\\"" -Xcompiler "/EHsc /W1 /nologo /Od /FS /Zi /RTC1 /MDd " -Xcompiler "/FdcmTC_1bb46.dir\\Debug\\vc143.pdb" -o cmTC_1bb46.dir\\Debug\\CMakeCUDACompilerABI.obj "C:\\Program Files\\CMake\\share\\cmake-3.27\\Modules\\CMakeCUDACompilerABI.cu" 
+        cl : Command line warning D9002: ignoring unknown option '-v' [C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\CMakeFiles\\CMakeScratch\\TryCompile-okswuq\\cmTC_1bb46.vcxproj]
+          CMakeCUDACompilerABI.cu
+        cl : Command line warning D9002: ignoring unknown option '-v' [C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\CMakeFiles\\CMakeScratch\\TryCompile-okswuq\\cmTC_1bb46.vcxproj]
+          CMakeCUDACompilerABI.cu
+          CMakeCUDACompilerABI.cu
+        cl : Command line warning D9002: ignoring unknown option '-v' [C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\CMakeFiles\\CMakeScratch\\TryCompile-okswuq\\cmTC_1bb46.vcxproj]
+          tmpxft_000a6e48_00000000-7_CMakeCUDACompilerABI.cudafe1.cpp
+        Done Building Project "C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\CMakeFiles\\CMakeScratch\\TryCompile-okswuq\\cmTC_1bb46.vcxproj" (CudaBuildCore target(s)).
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\CMakeFiles\\CMakeScratch\\TryCompile-okswuq\\Debug\\cmTC_1bb46.exe" /INCREMENTAL /ILK:"cmTC_1bb46.dir\\Debug\\cmTC_1bb46.ilk" /NOLOGO /LIBPATH:"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.1\\lib\\x64" cudadevrt.lib cudart_static.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/David/Work/Projects/Paper/SAFT/code/code/python/build_python/CMakeFiles/CMakeScratch/TryCompile-okswuq/Debug/cmTC_1bb46.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/David/Work/Projects/Paper/SAFT/code/code/python/build_python/CMakeFiles/CMakeScratch/TryCompile-okswuq/Debug/cmTC_1bb46.lib" /MACHINE:X64  /machine:x64 -v cmTC_1bb46.dir\\Debug\\CMakeCUDACompilerABI.obj
+        LINK : warning LNK4044: unrecognized option '/v'; ignored [C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\CMakeFiles\\CMakeScratch\\TryCompile-okswuq\\cmTC_1bb46.vcxproj]
+             Creating library C:/Users/David/Work/Projects/Paper/SAFT/code/code/python/build_python/CMakeFiles/CMakeScratch/TryCompile-okswuq/Debug/cmTC_1bb46.lib and object C:/Users/David/Work/Projects/Paper/SAFT/code/code/python/build_python/CMakeFiles/CMakeScratch/TryCompile-okswuq/Debug/cmTC_1bb46.exp
+        LINK : warning LNK4098: defaultlib 'LIBCMT' conflicts with use of other libs; use /NODEFAULTLIB:library [C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\CMakeFiles\\CMakeScratch\\TryCompile-okswuq\\cmTC_1bb46.vcxproj]
+          cmTC_1bb46.vcxproj -> C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\CMakeFiles\\CMakeScratch\\TryCompile-okswuq\\Debug\\cmTC_1bb46.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_1bb46.dir\\Debug\\cmTC_1bb46.tlog\\unsuccessfulbuild".
+          Touching "cmTC_1bb46.dir\\Debug\\cmTC_1bb46.tlog\\cmTC_1bb46.lastbuildstate".
+        Done Building Project "C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\CMakeFiles\\CMakeScratch\\TryCompile-okswuq\\cmTC_1bb46.vcxproj" (default targets).
+        
+        Build succeeded.
+        
+        "C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\CMakeFiles\\CMakeScratch\\TryCompile-okswuq\\cmTC_1bb46.vcxproj" (default target) (1) ->
+        "C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\CMakeFiles\\CMakeScratch\\TryCompile-okswuq\\cmTC_1bb46.vcxproj" (CudaBuildCore target) (1:2) ->
+        (CudaBuildCore target) -> 
+          cl : Command line warning D9002: ignoring unknown option '-v' [C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\CMakeFiles\\CMakeScratch\\TryCompile-okswuq\\cmTC_1bb46.vcxproj]
+          cl : Command line warning D9002: ignoring unknown option '-v' [C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\CMakeFiles\\CMakeScratch\\TryCompile-okswuq\\cmTC_1bb46.vcxproj]
+          cl : Command line warning D9002: ignoring unknown option '-v' [C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\CMakeFiles\\CMakeScratch\\TryCompile-okswuq\\cmTC_1bb46.vcxproj]
+        
+        
+        "C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\CMakeFiles\\CMakeScratch\\TryCompile-okswuq\\cmTC_1bb46.vcxproj" (default target) (1) ->
+        (Link target) -> 
+          LINK : warning LNK4044: unrecognized option '/v'; ignored [C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\CMakeFiles\\CMakeScratch\\TryCompile-okswuq\\cmTC_1bb46.vcxproj]
+          LINK : warning LNK4098: defaultlib 'LIBCMT' conflicts with use of other libs; use /NODEFAULTLIB:library [C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\CMakeFiles\\CMakeScratch\\TryCompile-okswuq\\cmTC_1bb46.vcxproj]
+        
+            5 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:02.17
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:127 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeTestCUDACompiler.cmake:19 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed CUDA implicit include dir info: rv=start
+        warn: unable to parse implicit include dirs!
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:152 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeTestCUDACompiler.cmake:19 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed CUDA implicit link information:
+        link line regex: [^( *|.*[/\\])(link\\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        ignore line: [Change Dir: 'C:/Users/David/Work/Projects/Paper/SAFT/code/code/python/build_python/CMakeFiles/CMakeScratch/TryCompile-okswuq']
+        ignore line: []
+        ignore line: [Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_1bb46.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n]
+        ignore line: [MSBuild version 17.8.3+195e7f5a3 for .NET Framework]
+        ignore line: [Build started 24.07.2025 11:03:40.]
+        ignore line: []
+        ignore line: [Project "C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\CMakeFiles\\CMakeScratch\\TryCompile-okswuq\\cmTC_1bb46.vcxproj" on node 1 (default targets).]
+        ignore line: [PrepareForBuild:]
+        ignore line: [  Creating directory "cmTC_1bb46.dir\\Debug\\".]
+        ignore line: [  Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.]
+        ignore line: [  Creating directory "C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\CMakeFiles\\CMakeScratch\\TryCompile-okswuq\\Debug\\".]
+        ignore line: [  Creating directory "cmTC_1bb46.dir\\Debug\\cmTC_1bb46.tlog\\".]
+        ignore line: [InitializeBuildStatus:]
+        ignore line: [  Creating "cmTC_1bb46.dir\\Debug\\cmTC_1bb46.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.]
+        ignore line: [  Touching "cmTC_1bb46.dir\\Debug\\cmTC_1bb46.tlog\\unsuccessfulbuild".]
+        ignore line: [AddCudaCompileDeps:]
+        ignore line: [  C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe /E /nologo /showIncludes /TP /D__CUDACC__ /D__CUDACC_VER_MAJOR__=12 /D__CUDACC_VER_MINOR__=1 /D_WINDOWS /DCMAKE_INTDIR="Debug" /D_MBCS /DCMAKE_INTDIR="Debug" /I"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.1\\bin" /I"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.1\\include" /I. /FIcuda_runtime.h /c "C:\\Program Files\\CMake\\share\\cmake-3.27\\Modules\\CMakeCUDACompilerABI.cu" ]
+        ignore line: [Project "C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\CMakeFiles\\CMakeScratch\\TryCompile-okswuq\\cmTC_1bb46.vcxproj" (1) is building "C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\CMakeFiles\\CMakeScratch\\TryCompile-okswuq\\cmTC_1bb46.vcxproj" (1:2) on node 1 (CudaBuildCore target(s)).]
+        ignore line: [CudaBuildCore:]
+        ignore line: [  Compiling CUDA source file ..\\..\\..\\..\\..\\..\\..\\..\\..\\..\\..\\..\\..\\Program Files\\CMake\\share\\cmake-3.27\\Modules\\CMakeCUDACompilerABI.cu...]
+        ignore line: [  cmd.exe /C "C:\\Users\\David\\AppData\\Local\\Temp\\tmp79a90d01b8064556a71667f8b9aab698.cmd"]
+        ignore line: [  "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.1\\bin\\nvcc.exe"  --use-local-env -ccbin "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64" -x cu    -I"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.1\\include"     --keep-dir x64\\Debug  -maxrregcount=0   --machine 64 --compile -cudart static --generate-code=arch=compute_52 code=[compute_52 sm_52] -Xcompiler="/EHsc -Ob0 -Zi -v" -g  -D_WINDOWS -D"CMAKE_INTDIR=\\"Debug\\"" -D_MBCS -D"CMAKE_INTDIR=\\"Debug\\"" -Xcompiler "/EHsc /W1 /nologo /Od /FS /Zi /RTC1 /MDd " -Xcompiler "/FdcmTC_1bb46.dir\\Debug\\vc143.pdb" -o cmTC_1bb46.dir\\Debug\\CMakeCUDACompilerABI.obj "C:\\Program Files\\CMake\\share\\cmake-3.27\\Modules\\CMakeCUDACompilerABI.cu"]
+        ignore line: [  ]
+        ignore line: [  C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\CMakeFiles\\CMakeScratch\\TryCompile-okswuq>"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.1\\bin\\nvcc.exe"  --use-local-env -ccbin "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64" -x cu    -I"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.1\\include"     --keep-dir x64\\Debug  -maxrregcount=0   --machine 64 --compile -cudart static --generate-code=arch=compute_52 code=[compute_52 sm_52] -Xcompiler="/EHsc -Ob0 -Zi -v" -g  -D_WINDOWS -D"CMAKE_INTDIR=\\"Debug\\"" -D_MBCS -D"CMAKE_INTDIR=\\"Debug\\"" -Xcompiler "/EHsc /W1 /nologo /Od /FS /Zi /RTC1 /MDd " -Xcompiler "/FdcmTC_1bb46.dir\\Debug\\vc143.pdb" -o cmTC_1bb46.dir\\Debug\\CMakeCUDACompilerABI.obj "C:\\Program Files\\CMake\\share\\cmake-3.27\\Modules\\CMakeCUDACompilerABI.cu" ]
+        ignore line: [cl : Command line warning D9002: ignoring unknown option '-v' [C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\CMakeFiles\\CMakeScratch\\TryCompile-okswuq\\cmTC_1bb46.vcxproj]]
+        ignore line: [  CMakeCUDACompilerABI.cu]
+        ignore line: [cl : Command line warning D9002: ignoring unknown option '-v' [C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\CMakeFiles\\CMakeScratch\\TryCompile-okswuq\\cmTC_1bb46.vcxproj]]
+        ignore line: [  CMakeCUDACompilerABI.cu]
+        ignore line: [  CMakeCUDACompilerABI.cu]
+        ignore line: [cl : Command line warning D9002: ignoring unknown option '-v' [C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\CMakeFiles\\CMakeScratch\\TryCompile-okswuq\\cmTC_1bb46.vcxproj]]
+        ignore line: [  tmpxft_000a6e48_00000000-7_CMakeCUDACompilerABI.cudafe1.cpp]
+        ignore line: [Done Building Project "C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\CMakeFiles\\CMakeScratch\\TryCompile-okswuq\\cmTC_1bb46.vcxproj" (CudaBuildCore target(s)).]
+        ignore line: [Link:]
+        ignore line: [  C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\CMakeFiles\\CMakeScratch\\TryCompile-okswuq\\Debug\\cmTC_1bb46.exe" /INCREMENTAL /ILK:"cmTC_1bb46.dir\\Debug\\cmTC_1bb46.ilk" /NOLOGO /LIBPATH:"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.1\\lib\\x64" cudadevrt.lib cudart_static.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/David/Work/Projects/Paper/SAFT/code/code/python/build_python/CMakeFiles/CMakeScratch/TryCompile-okswuq/Debug/cmTC_1bb46.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/David/Work/Projects/Paper/SAFT/code/code/python/build_python/CMakeFiles/CMakeScratch/TryCompile-okswuq/Debug/cmTC_1bb46.lib" /MACHINE:X64  /machine:x64 -v cmTC_1bb46.dir\\Debug\\CMakeCUDACompilerABI.obj]
+        ignore line: [LINK : warning LNK4044: unrecognized option '/v']
+        ignore line: [ ignored [C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\CMakeFiles\\CMakeScratch\\TryCompile-okswuq\\cmTC_1bb46.vcxproj]]
+        ignore line: [     Creating library C:/Users/David/Work/Projects/Paper/SAFT/code/code/python/build_python/CMakeFiles/CMakeScratch/TryCompile-okswuq/Debug/cmTC_1bb46.lib and object C:/Users/David/Work/Projects/Paper/SAFT/code/code/python/build_python/CMakeFiles/CMakeScratch/TryCompile-okswuq/Debug/cmTC_1bb46.exp]
+        ignore line: [LINK : warning LNK4098: defaultlib 'LIBCMT' conflicts with use of other libs]
+        ignore line: [ use /NODEFAULTLIB:library [C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\CMakeFiles\\CMakeScratch\\TryCompile-okswuq\\cmTC_1bb46.vcxproj]]
+        ignore line: [  cmTC_1bb46.vcxproj -> C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\CMakeFiles\\CMakeScratch\\TryCompile-okswuq\\Debug\\cmTC_1bb46.exe]
+        ignore line: [FinalizeBuildStatus:]
+        ignore line: [  Deleting file "cmTC_1bb46.dir\\Debug\\cmTC_1bb46.tlog\\unsuccessfulbuild".]
+        ignore line: [  Touching "cmTC_1bb46.dir\\Debug\\cmTC_1bb46.tlog\\cmTC_1bb46.lastbuildstate".]
+        ignore line: [Done Building Project "C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\CMakeFiles\\CMakeScratch\\TryCompile-okswuq\\cmTC_1bb46.vcxproj" (default targets).]
+        ignore line: []
+        ignore line: [Build succeeded.]
+        ignore line: []
+        ignore line: ["C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\CMakeFiles\\CMakeScratch\\TryCompile-okswuq\\cmTC_1bb46.vcxproj" (default target) (1) ->]
+        ignore line: ["C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\CMakeFiles\\CMakeScratch\\TryCompile-okswuq\\cmTC_1bb46.vcxproj" (CudaBuildCore target) (1:2) ->]
+        ignore line: [(CudaBuildCore target) -> ]
+        ignore line: [  cl : Command line warning D9002: ignoring unknown option '-v' [C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\CMakeFiles\\CMakeScratch\\TryCompile-okswuq\\cmTC_1bb46.vcxproj]]
+        ignore line: [  cl : Command line warning D9002: ignoring unknown option '-v' [C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\CMakeFiles\\CMakeScratch\\TryCompile-okswuq\\cmTC_1bb46.vcxproj]]
+        ignore line: [  cl : Command line warning D9002: ignoring unknown option '-v' [C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\CMakeFiles\\CMakeScratch\\TryCompile-okswuq\\cmTC_1bb46.vcxproj]]
+        ignore line: []
+        ignore line: []
+        ignore line: ["C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\CMakeFiles\\CMakeScratch\\TryCompile-okswuq\\cmTC_1bb46.vcxproj" (default target) (1) ->]
+        ignore line: [(Link target) -> ]
+        ignore line: [  LINK : warning LNK4044: unrecognized option '/v']
+        ignore line: [ ignored [C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\CMakeFiles\\CMakeScratch\\TryCompile-okswuq\\cmTC_1bb46.vcxproj]]
+        ignore line: [  LINK : warning LNK4098: defaultlib 'LIBCMT' conflicts with use of other libs]
+        ignore line: [ use /NODEFAULTLIB:library [C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\CMakeFiles\\CMakeScratch\\TryCompile-okswuq\\cmTC_1bb46.vcxproj]]
+        ignore line: []
+        ignore line: [    5 Warning(s)]
+        ignore line: [    0 Error(s)]
+        ignore line: []
+        ignore line: [Time Elapsed 00:00:02.17]
+        ignore line: []
+        ignore line: []
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "C:/Users/David/miniconda3/Lib/site-packages/torch/share/cmake/Caffe2/public/cuda.cmake:103 (try_run)"
+      - "C:/Users/David/miniconda3/Lib/site-packages/torch/share/cmake/Caffe2/Caffe2Config.cmake:86 (include)"
+      - "C:/Users/David/miniconda3/Lib/site-packages/torch/share/cmake/Torch/TorchConfig.cmake:68 (find_package)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "C:/Users/David/miniconda3/Lib/site-packages/charonload/cmake/charonload-config.cmake:79 (find_dependency)"
+      - "CMakeLists.txt:7 (find_package)"
+    directories:
+      source: "C:/Users/David/Work/Projects/Paper/SAFT/code/code/python/build_python/LLBYW/CMakeFiles/CMakeTmp"
+      binary: "C:/Users/David/Work/Projects/Paper/SAFT/code/code/python/build_python/LLBYW/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CUDA_ARCHITECTURES: "52"
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/David/miniconda3/Lib/site-packages/torch/share/cmake/Caffe2;C:/Users/David/miniconda3/Lib/site-packages/torch/share/cmake/Caffe2/public/../Modules_CUDA_fix"
+    buildResult:
+      variable: "compile_result"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/David/Work/Projects/Paper/SAFT/code/code/python/build_python/LLBYW/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_e8593.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.8.3+195e7f5a3 for .NET Framework
+        Build started 24.07.2025 11:03:45.
+        
+        Project "C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\LLBYW\\CMakeFiles\\CMakeTmp\\cmTC_e8593.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_e8593.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\LLBYW\\CMakeFiles\\CMakeTmp\\Debug\\".
+          Creating directory "cmTC_e8593.dir\\Debug\\cmTC_e8593.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_e8593.dir\\Debug\\cmTC_e8593.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_e8593.dir\\Debug\\cmTC_e8593.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.1\\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_e8593.dir\\Debug\\\\" /Fd"cmTC_e8593.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\detect_cuda_version.cc
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.38.33133 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /I"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.1\\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_e8593.dir\\Debug\\\\" /Fd"cmTC_e8593.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\detect_cuda_version.cc
+          detect_cuda_version.cc
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\LLBYW\\CMakeFiles\\CMakeTmp\\Debug\\cmTC_e8593.exe" /INCREMENTAL /ILK:"cmTC_e8593.dir\\Debug\\cmTC_e8593.ilk" /NOLOGO "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.1\\lib\\x64\\cudart_static.lib" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/David/Work/Projects/Paper/SAFT/code/code/python/build_python/LLBYW/CMakeFiles/CMakeTmp/Debug/cmTC_e8593.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/David/Work/Projects/Paper/SAFT/code/code/python/build_python/LLBYW/CMakeFiles/CMakeTmp/Debug/cmTC_e8593.lib" /MACHINE:X64  /machine:x64 cmTC_e8593.dir\\Debug\\detect_cuda_version.obj
+          cmTC_e8593.vcxproj -> C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\LLBYW\\CMakeFiles\\CMakeTmp\\Debug\\cmTC_e8593.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_e8593.dir\\Debug\\cmTC_e8593.tlog\\unsuccessfulbuild".
+          Touching "cmTC_e8593.dir\\Debug\\cmTC_e8593.tlog\\cmTC_e8593.lastbuildstate".
+        Done Building Project "C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\LLBYW\\CMakeFiles\\CMakeTmp\\cmTC_e8593.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.59
+        
+      exitCode: 0
+    runResult:
+      variable: "run_result"
+      cached: true
+      stdout: |
+        12.1
+      exitCode: 0
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "C:/Users/David/miniconda3/Lib/site-packages/torch/share/cmake/Caffe2/Modules_CUDA_fix/upstream/FindCUDA/select_compute_arch.cmake:113 (try_run)"
+      - "C:/Users/David/miniconda3/Lib/site-packages/torch/share/cmake/Caffe2/Modules_CUDA_fix/upstream/FindCUDA/select_compute_arch.cmake:173 (CUDA_DETECT_INSTALLED_GPUS)"
+      - "C:/Users/David/miniconda3/Lib/site-packages/torch/share/cmake/Caffe2/public/utils.cmake:398 (cuda_select_nvcc_arch_flags)"
+      - "C:/Users/David/miniconda3/Lib/site-packages/torch/share/cmake/Caffe2/public/cuda.cmake:300 (torch_cuda_get_nvcc_gencode_flag)"
+      - "C:/Users/David/miniconda3/Lib/site-packages/torch/share/cmake/Caffe2/Caffe2Config.cmake:86 (include)"
+      - "C:/Users/David/miniconda3/Lib/site-packages/torch/share/cmake/Torch/TorchConfig.cmake:68 (find_package)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "C:/Users/David/miniconda3/Lib/site-packages/charonload/cmake/charonload-config.cmake:79 (find_dependency)"
+      - "CMakeLists.txt:7 (find_package)"
+    directories:
+      source: "C:/Users/David/Work/Projects/Paper/SAFT/code/code/python/build_python/CMakeFiles/CMakeTmp"
+      binary: "C:/Users/David/Work/Projects/Paper/SAFT/code/code/python/build_python/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CUDA_ARCHITECTURES: "52"
+      CMAKE_CUDA_FLAGS: "-D_WINDOWS -Xcompiler=\" /EHsc\""
+      CMAKE_CUDA_FLAGS_DEBUG: "-Xcompiler=\" -Ob0 -Od /RTC1\""
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/David/miniconda3/Lib/site-packages/torch/share/cmake/Caffe2;C:/Users/David/miniconda3/Lib/site-packages/torch/share/cmake/Caffe2/public/../Modules_CUDA_fix"
+    buildResult:
+      variable: "compile_result"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/David/Work/Projects/Paper/SAFT/code/code/python/build_python/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_5c396.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.8.3+195e7f5a3 for .NET Framework
+        Build started 24.07.2025 11:03:46.
+        
+        Project "C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\CMakeFiles\\CMakeTmp\\cmTC_5c396.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_5c396.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\CMakeFiles\\CMakeTmp\\Debug\\".
+          Creating directory "cmTC_5c396.dir\\Debug\\cmTC_5c396.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_5c396.dir\\Debug\\cmTC_5c396.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_5c396.dir\\Debug\\cmTC_5c396.tlog\\unsuccessfulbuild".
+        AddCudaCompileDeps:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe /E /nologo /showIncludes /TP /D__CUDACC__ /D__CUDACC_VER_MAJOR__=12 /D__CUDACC_VER_MINOR__=1 /D_WINDOWS /DCMAKE_INTDIR="Debug" /D_MBCS /DCMAKE_INTDIR="Debug" /I"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.1\\bin" /I"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.1\\include" /I. /FIcuda_runtime.h /c C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\detect_cuda_compute_capabilities.cu 
+        Project "C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\CMakeFiles\\CMakeTmp\\cmTC_5c396.vcxproj" (1) is building "C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\CMakeFiles\\CMakeTmp\\cmTC_5c396.vcxproj" (1:2) on node 1 (CudaBuildCore target(s)).
+        CudaBuildCore:
+          Compiling CUDA source file ..\\..\\detect_cuda_compute_capabilities.cu...
+          cmd.exe /C "C:\\Users\\David\\AppData\\Local\\Temp\\tmpabfb9a87d9314c46b6d5af60fcf614d6.cmd"
+          "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.1\\bin\\nvcc.exe"  --use-local-env -ccbin "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64" -x cu    -I"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.1\\include"     --keep-dir x64\\Debug  -maxrregcount=0   --machine 64 --compile -cudart static --generate-code=arch=compute_52,code=[compute_52,sm_52] -Xcompiler="/EHsc -Ob0 -Zi" -g  -D_WINDOWS -D"CMAKE_INTDIR=\\"Debug\\"" -D_MBCS -D"CMAKE_INTDIR=\\"Debug\\"" -Xcompiler "/EHsc /W1 /nologo /Od /FS /Zi /RTC1 /MDd " -Xcompiler "/FdcmTC_5c396.dir\\Debug\\vc143.pdb" -o cmTC_5c396.dir\\Debug\\detect_cuda_compute_capabilities.obj "C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\detect_cuda_compute_capabilities.cu"
+          
+          C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\CMakeFiles\\CMakeTmp>"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.1\\bin\\nvcc.exe"  --use-local-env -ccbin "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64" -x cu    -I"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.1\\include"     --keep-dir x64\\Debug  -maxrregcount=0   --machine 64 --compile -cudart static --generate-code=arch=compute_52,code=[compute_52,sm_52] -Xcompiler="/EHsc -Ob0 -Zi" -g  -D_WINDOWS -D"CMAKE_INTDIR=\\"Debug\\"" -D_MBCS -D"CMAKE_INTDIR=\\"Debug\\"" -Xcompiler "/EHsc /W1 /nologo /Od /FS /Zi /RTC1 /MDd " -Xcompiler "/FdcmTC_5c396.dir\\Debug\\vc143.pdb" -o cmTC_5c396.dir\\Debug\\detect_cuda_compute_capabilities.obj "C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\detect_cuda_compute_capabilities.cu" 
+          detect_cuda_compute_capabilities.cu
+          tmpxft_000a50b8_00000000-7_detect_cuda_compute_capabilities.cudafe1.cpp
+        Done Building Project "C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\CMakeFiles\\CMakeTmp\\cmTC_5c396.vcxproj" (CudaBuildCore target(s)).
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\CMakeFiles\\CMakeTmp\\Debug\\cmTC_5c396.exe" /INCREMENTAL /ILK:"cmTC_5c396.dir\\Debug\\cmTC_5c396.ilk" /NOLOGO /LIBPATH:"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.1\\lib\\x64" cudadevrt.lib cudart_static.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/David/Work/Projects/Paper/SAFT/code/code/python/build_python/CMakeFiles/CMakeTmp/Debug/cmTC_5c396.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/David/Work/Projects/Paper/SAFT/code/code/python/build_python/CMakeFiles/CMakeTmp/Debug/cmTC_5c396.lib" /MACHINE:X64  /machine:x64 cmTC_5c396.dir\\Debug\\detect_cuda_compute_capabilities.obj
+             Creating library C:/Users/David/Work/Projects/Paper/SAFT/code/code/python/build_python/CMakeFiles/CMakeTmp/Debug/cmTC_5c396.lib and object C:/Users/David/Work/Projects/Paper/SAFT/code/code/python/build_python/CMakeFiles/CMakeTmp/Debug/cmTC_5c396.exp
+        LINK : warning LNK4098: defaultlib 'LIBCMT' conflicts with use of other libs; use /NODEFAULTLIB:library [C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\CMakeFiles\\CMakeTmp\\cmTC_5c396.vcxproj]
+          cmTC_5c396.vcxproj -> C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\CMakeFiles\\CMakeTmp\\Debug\\cmTC_5c396.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_5c396.dir\\Debug\\cmTC_5c396.tlog\\unsuccessfulbuild".
+          Touching "cmTC_5c396.dir\\Debug\\cmTC_5c396.tlog\\cmTC_5c396.lastbuildstate".
+        Done Building Project "C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\CMakeFiles\\CMakeTmp\\cmTC_5c396.vcxproj" (default targets).
+        
+        Build succeeded.
+        
+        "C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\CMakeFiles\\CMakeTmp\\cmTC_5c396.vcxproj" (default target) (1) ->
+        (Link target) -> 
+          LINK : warning LNK4098: defaultlib 'LIBCMT' conflicts with use of other libs; use /NODEFAULTLIB:library [C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\CMakeFiles\\CMakeTmp\\cmTC_5c396.vcxproj]
+        
+            1 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:02.20
+        
+      exitCode: 0
+    runResult:
+      variable: "run_result"
+      cached: true
+      stdout: |
+        8.9 
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/David/miniconda3/Lib/site-packages/charonload/cmake/torch/cxx_standard.cmake:17 (try_compile)"
+      - "C:/Users/David/miniconda3/Lib/site-packages/charonload/cmake/charonload-config.cmake:104 (charonload_detect_torch_cxx_standard)"
+      - "CMakeLists.txt:7 (find_package)"
+    checks:
+      - "CMAKE_CXX_STANDARD: 14"
+      - "Detecting minimum C++ standard for Torch ..."
+    description: "Checking C++14 standard for Torch"
+    directories:
+      source: "C:/Users/David/miniconda3/Lib/site-packages/charonload/cmake/torch/cxx_standard"
+      binary: "C:/Users/David/Work/Projects/Paper/SAFT/code/code/python/build_python/charonload/torch/cxx_standard_14"
+    cmakeVariables:
+      CMAKE_CUDA_ARCHITECTURES: "OFF"
+    buildResult:
+      variable: "COMPILE_RESULT"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/David/Work/Projects/Paper/SAFT/code/code/python/build_python/charonload/torch/cxx_standard_14'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" ALL_BUILD.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.8.3+195e7f5a3 for .NET Framework
+        Build started 24.07.2025 11:03:53.
+        
+        Project "C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\charonload\\torch\\cxx_standard_14\\ALL_BUILD.vcxproj" on node 1 (default targets).
+        Project "C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\charonload\\torch\\cxx_standard_14\\ALL_BUILD.vcxproj" (1) is building "C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\charonload\\torch\\cxx_standard_14\\ZERO_CHECK.vcxproj" (2) on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "x64\\Debug\\ZERO_CHECK\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "x64\\Debug\\ZERO_CHECK\\ZERO_CHECK.tlog\\".
+        InitializeBuildStatus:
+          Creating "x64\\Debug\\ZERO_CHECK\\ZERO_CHECK.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "x64\\Debug\\ZERO_CHECK\\ZERO_CHECK.tlog\\unsuccessfulbuild".
+        CustomBuild:
+          1>Checking Build System
+        FinalizeBuildStatus:
+          Deleting file "x64\\Debug\\ZERO_CHECK\\ZERO_CHECK.tlog\\unsuccessfulbuild".
+          Touching "x64\\Debug\\ZERO_CHECK\\ZERO_CHECK.tlog\\ZERO_CHECK.lastbuildstate".
+        Done Building Project "C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\charonload\\torch\\cxx_standard_14\\ZERO_CHECK.vcxproj" (default targets).
+        Project "C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\charonload\\torch\\cxx_standard_14\\ALL_BUILD.vcxproj" (1) is building "C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\charonload\\torch\\cxx_standard_14\\torch_cxx_standard.vcxproj" (3) on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "torch_cxx_standard.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\charonload\\torch\\cxx_standard_14\\Debug\\".
+          Creating directory "torch_cxx_standard.dir\\Debug\\torch_cx.CE07355F.tlog\\".
+        InitializeBuildStatus:
+          Creating "torch_cxx_standard.dir\\Debug\\torch_cx.CE07355F.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "torch_cxx_standard.dir\\Debug\\torch_cx.CE07355F.tlog\\unsuccessfulbuild".
+        CustomBuild:
+          Building Custom Rule C:/Users/David/miniconda3/Lib/site-packages/charonload/cmake/torch/cxx_standard/CMakeLists.txt
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.1\\include" /Z7 /nologo /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D USE_DISTRIBUTED /D USE_C10D_GLOO /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"torch_cxx_standard.dir\\Debug\\\\" /Fd"torch_cxx_standard.dir\\Debug\\vc143.pdb" /external:W0 /Gd /TP /errorReport:queue  /external:I "C:/Users/David/miniconda3/Lib/site-packages/torch/include" /external:I "C:/Users/David/miniconda3/Lib/site-packages/torch/include/torch/csrc/api/include" /external:I "C:/Program Files/NVIDIA Corporation/NvToolsExt//include" /external:I "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.1/include" /external:I "C:/Program Files/NVIDIA Corporation/NvToolsExt/include" /bigobj "C:\\Users\\David\\miniconda3\\Lib\\site-packages\\charonload\\cmake\\torch\\cxx_standard\\torch_cxx_standard.cpp"
+          torch_cxx_standard.cpp
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\include\\string_view(12): warning STL4038: The contents of <string_view> are available only with C++17 or later. [C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\charonload\\torch\\cxx_standard_14\\torch_cxx_standard.vcxproj]
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\include\\variant(12): warning STL4038: The contents of <variant> are available only with C++17 or later. [C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\charonload\\torch\\cxx_standard_14\\torch_cxx_standard.vcxproj]
+        C:\\Users\\David\\miniconda3\\Lib\\site-packages\\torch\\include\\c10\\macros\\Macros.h(156,21): error C2429: language feature 'nested-namespace-definition' requires compiler flag '/std:c++17' [C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\charonload\\torch\\cxx_standard_14\\torch_cxx_standard.vcxproj]
+          (compiling source file '../../../../../../../../../../../miniconda3/Lib/site-packages/charonload/cmake/torch/cxx_standard/torch_cxx_standard.cpp')
+          
+        C:\\Users\\David\\miniconda3\\Lib\\site-packages\\torch\\include\\c10\\macros\\Macros.h(157,20): error C2429: language feature 'nested-namespace-definition' requires compiler flag '/std:c++17' [C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\charonload\\torch\\cxx_standard_14\\torch_cxx_standard.vcxproj]
+          (compiling source file '../../../../../../../../../../../miniconda3/Lib/site-packages/charonload/cmake/torch/cxx_standard/torch_cxx_standard.cpp')
+          
+        C:\\Users\\David\\miniconda3\\Lib\\site-packages\\torch\\include\\c10\\macros\\Macros.h(158,20): error C2429: language feature 'nested-namespace-definition' requires compiler flag '/std:c++17' [C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\charonload\\torch\\cxx_standard_14\\torch_cxx_standard.vcxproj]
+          (compiling source file '../../../../../../../../../../../miniconda3/Lib/site-packages/charonload/cmake/torch/cxx_standard/torch_cxx_standard.cpp')
+          
+        C:\\Users\\David\\miniconda3\\Lib\\site-packages\\torch\\include\\c10\\macros\\Macros.h(170,20): error C2429: language feature 'nested-namespace-definition' requires compiler flag '/std:c++17' [C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\charonload\\torch\\cxx_standard_14\\torch_cxx_standard.vcxproj]
+          (compiling source file '../../../../../../../../../../../miniconda3/Lib/site-packages/charonload/cmake/torch/cxx_standard/torch_cxx_standard.cpp')
+          
+        C:\\Users\\David\\miniconda3\\Lib\\site-packages\\torch\\include\\c10\\macros\\Macros.h(182,20): error C2429: language feature 'nested-namespace-definition' requires compiler flag '/std:c++17' [C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\charonload\\torch\\cxx_standard_14\\torch_cxx_standard.vcxproj]
+          (compiling source file '../../../../../../../../../../../miniconda3/Lib/site-packages/charonload/cmake/torch/cxx_standard/torch_cxx_standard.cpp')
+          
+        C:\\Users\\David\\miniconda3\\Lib\\site-packages\\torch\\include\\c10\\macros\\Macros.h(186,19): error C2429: language feature 'nested-namespace-definition' requires compiler flag '/std:c++17' [C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\charonload\\torch\\cxx_standard_14\\torch_cxx_standard.vcxproj]
+          (compiling source file '../../../../../../../../../../../miniconda3/Lib/site-packages/charonload/cmake/torch/cxx_standard/torch_cxx_standard.cpp')
+          
+        C:\\Users\\David\\miniconda3\\Lib\\site-packages\\torch\\include\\c10\\util\\Exception.h(122,34): error C2039: 'variant': is not a member of 'std' [C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\charonload\\torch\\cxx_standard_14\\torch_cxx_standard.vcxproj]
+          (compiling source file '../../../../../../../../../../../miniconda3/Lib/site-packages/charonload/cmake/torch/cxx_standard/torch_cxx_standard.cpp')
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\include\\vector(25,1):
+          see declaration of 'std'
+          
+        C:\\Users\\David\\miniconda3\\Lib\\site-packages\\torch\\include\\c10\\util\\Exception.h(122,34): error C2061: syntax error: identifier 'variant' [C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\charonload\\torch\\cxx_standard_14\\torch_cxx_standard.vcxproj]
+          (compiling source file '../../../../../../../../../../../miniconda3/Lib/site-packages/charonload/cmake/torch/cxx_standard/torch_cxx_standard.cpp')
+          
+        C:\\Users\\David\\miniconda3\\Lib\\site-packages\\torch\\include\\c10\\util\\Exception.h(125,7): error C2061: syntax error: identifier 'warning_variant_t' [C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\charonload\\torch\\cxx_standard_14\\torch_cxx_standard.vcxproj]
+          (compiling source file '../../../../../../../../../../../miniconda3/Lib/site-packages/charonload/cmake/torch/cxx_standard/torch_cxx_standard.cpp')
+          
+        C:\\Users\\David\\miniconda3\\Lib\\site-packages\\torch\\include\\c10\\util\\Exception.h(131,7): error C2061: syntax error: identifier 'warning_variant_t' [C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\charonload\\torch\\cxx_standard_14\\torch_cxx_standard.vcxproj]
+          (compiling source file '../../../../../../../../../../../miniconda3/Lib/site-packages/charonload/cmake/torch/cxx_standard/torch_cxx_standard.cpp')
+          
+        C:\\Users\\David\\miniconda3\\Lib\\site-packages\\torch\\include\\c10\\util\\Exception.h(130,3): error C2535: 'c10::Warning::Warning(void)': member function already defined or declared [C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\charonload\\torch\\cxx_standard_14\\torch_cxx_standard.vcxproj]
+          (compiling source file '../../../../../../../../../../../miniconda3/Lib/site-packages/charonload/cmake/torch/cxx_standard/torch_cxx_standard.cpp')
+          C:\\Users\\David\\miniconda3\\Lib\\site-packages\\torch\\include\\c10\\util\\Exception.h(124,3):
+          see declaration of 'c10::Warning::Warning'
+          
+        C:\\Users\\David\\miniconda3\\Lib\\site-packages\\torch\\include\\c10\\util\\Exception.h(137,7): error C2061: syntax error: identifier 'warning_variant_t' [C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\charonload\\torch\\cxx_standard_14\\torch_cxx_standard.vcxproj]
+          (compiling source file '../../../../../../../../../../../miniconda3/Lib/site-packages/charonload/cmake/torch/cxx_standard/torch_cxx_standard.cpp')
+          
+        C:\\Users\\David\\miniconda3\\Lib\\site-packages\\torch\\include\\c10\\util\\Exception.h(136,3): error C2535: 'c10::Warning::Warning(void)': member function already defined or declared [C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\charonload\\torch\\cxx_standard_14\\torch_cxx_standard.vcxproj]
+          (compiling source file '../../../../../../../../../../../miniconda3/Lib/site-packages/charonload/cmake/torch/cxx_standard/torch_cxx_standard.cpp')
+          C:\\Users\\David\\miniconda3\\Lib\\site-packages\\torch\\include\\c10\\util\\Exception.h(124,3):
+          see declaration of 'c10::Warning::Warning'
+          
+        C:\\Users\\David\\miniconda3\\Lib\\site-packages\\torch\\include\\c10\\util\\Exception.h(143,21): error C3646: 'type': unknown override specifier [C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\charonload\\torch\\cxx_standard_14\\torch_cxx_standard.vcxproj]
+          (compiling source file '../../../../../../../../../../../miniconda3/Lib/site-packages/charonload/cmake/torch/cxx_standard/torch_cxx_standard.cpp')
+          
+        C:\\Users\\David\\miniconda3\\Lib\\site-packages\\torch\\include\\c10\\util\\Exception.h(143,25): error C2059: syntax error: '(' [C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\charonload\\torch\\cxx_standard_14\\torch_cxx_standard.vcxproj]
+          (compiling source file '../../../../../../../../../../../miniconda3/Lib/site-packages/charonload/cmake/torch/cxx_standard/torch_cxx_standard.cpp')
+          
+        C:\\Users\\David\\miniconda3\\Lib\\site-packages\\torch\\include\\c10\\util\\Exception.h(143,33): error C2238: unexpected token(s) preceding ';' [C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\charonload\\torch\\cxx_standard_14\\torch_cxx_standard.vcxproj]
+          (compiling source file '../../../../../../../../../../../miniconda3/Lib/site-packages/charonload/cmake/torch/cxx_standard/torch_cxx_standard.cpp')
+          
+        C:\\Users\\David\\miniconda3\\Lib\\site-packages\\torch\\include\\c10\\util\\Exception.h(150,21): error C3646: 'type_': unknown override specifier [C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\charonload\\torch\\cxx_standard_14\\torch_cxx_standard.vcxproj]
+          (compiling source file '../../../../../../../../../../../miniconda3/Lib/site-packages/charonload/cmake/torch/cxx_standard/torch_cxx_standard.cpp')
+          
+        C:\\Users\\David\\miniconda3\\Lib\\site-packages\\torch\\include\\c10\\util\\Exception.h(453,23): error C2429: language feature 'nested-namespace-definition' requires compiler flag '/std:c++17' [C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\charonload\\torch\\cxx_standard_14\\torch_cxx_standard.vcxproj]
+          (compiling source file '../../../../../../../../../../../miniconda3/Lib/site-packages/charonload/cmake/torch/cxx_standard/torch_cxx_standard.cpp')
+          
+        C:\\Users\\David\\miniconda3\\Lib\\site-packages\\torch\\include\\c10\\util\\Exception.h(482,23): error C2429: language feature 'nested-namespace-definition' requires compiler flag '/std:c++17' [C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\charonload\\torch\\cxx_standard_14\\torch_cxx_standard.vcxproj]
+          (compiling source file '../../../../../../../../../../../miniconda3/Lib/site-packages/charonload/cmake/torch/cxx_standard/torch_cxx_standard.cpp')
+          
+        C:\\Users\\David\\miniconda3\\Lib\\site-packages\\torch\\include\\c10\\util\\Exception.h(649,23): error C2429: language feature 'nested-namespace-definition' requires compiler flag '/std:c++17' [C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\charonload\\torch\\cxx_standard_14\\torch_cxx_standard.vcxproj]
+          (compiling source file '../../../../../../../../../../../miniconda3/Lib/site-packages/charonload/cmake/torch/cxx_standard/torch_cxx_standard.cpp')
+          
+        C:\\Users\\David\\miniconda3\\Lib\\site-packages\\torch\\include\\c10\\util\\TypeTraits.h(6,21): error C2429: language feature 'nested-namespace-definition' requires compiler flag '/std:c++17' [C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\charonload\\torch\\cxx_standard_14\\torch_cxx_standard.vcxproj]
+          (compiling source file '../../../../../../../../../../../miniconda3/Lib/site-packages/charonload/cmake/torch/cxx_standard/torch_cxx_standard.cpp')
+          
+        C:\\Users\\David\\miniconda3\\Lib\\site-packages\\torch\\include\\c10\\util\\TypeList.h(10,21): error C2429: language feature 'nested-namespace-definition' requires compiler flag '/std:c++17' [C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\charonload\\torch\\cxx_standard_14\\torch_cxx_standard.vcxproj]
+          (compiling source file '../../../../../../../../../../../miniconda3/Lib/site-packages/charonload/cmake/torch/cxx_standard/torch_cxx_standard.cpp')
+          
+        C:\\Users\\David\\miniconda3\\Lib\\site-packages\\torch\\include\\c10\\util\\Metaprogramming.h(6,21): error C2429: language feature 'nested-namespace-definition' requires compiler flag '/std:c++17' [C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\charonload\\torch\\cxx_standard_14\\torch_cxx_standard.vcxproj]
+          (compiling source file '../../../../../../../../../../../miniconda3/Lib/site-packages/charonload/cmake/torch/cxx_standard/torch_cxx_standard.cpp')
+          
+        C:\\Users\\David\\miniconda3\\Lib\\site-packages\\torch\\include\\c10\\util\\llvmMathExtras.h(59,21): error C2429: language feature 'nested-namespace-definition' requires compiler flag '/std:c++17' [C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\charonload\\torch\\cxx_standard_14\\torch_cxx_standard.vcxproj]
+          (compiling source file '../../../../../../../../../../../miniconda3/Lib/site-packages/charonload/cmake/torch/cxx_standard/torch_cxx_standard.cpp')
+          
+        C:\\Users\\David\\miniconda3\\Lib\\site-packages\\torch\\include\\c10\\util\\floating_point_utils.h(6,23): error C2429: language feature 'nested-namespace-definition' requires compiler flag '/std:c++17' [C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\charonload\\torch\\cxx_standard_14\\torch_cxx_standard.vcxproj]
+          (compiling source file '../../../../../../../../../../../miniconda3/Lib/site-packages/charonload/cmake/torch/cxx_standard/torch_cxx_standard.cpp')
+          
+        C:\\Users\\David\\miniconda3\\Lib\\site-packages\\torch\\include\\c10\\util\\Float8_fnuz_cvt.h(11,23): error C2429: language feature 'nested-namespace-definition' requires compiler flag '/std:c++17' [C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\charonload\\torch\\cxx_standard_14\\torch_cxx_standard.vcxproj]
+          (compiling source file '../../../../../../../../../../../miniconda3/Lib/site-packages/charonload/cmake/torch/cxx_standard/torch_cxx_standard.cpp')
+          
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\include\\optional(11): warning STL4038: The contents of <optional> are available only with C++17 or later. [C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\charonload\\torch\\cxx_standard_14\\torch_cxx_standard.vcxproj]
+        C:\\Users\\David\\miniconda3\\Lib\\site-packages\\torch\\include\\c10\\util\\Optional.h(13,12): error C2039: 'bad_optional_access': is not a member of 'std' [C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\charonload\\torch\\cxx_standard_14\\torch_cxx_standard.vcxproj]
+          (compiling source file '../../../../../../../../../../../miniconda3/Lib/site-packages/charonload/cmake/torch/cxx_standard/torch_cxx_standard.cpp')
+          C:\\Users\\David\\miniconda3\\Lib\\site-packages\\torch\\include\\c10\\util\\Float8_e5m2fnuz-inl.h(225,11):
+          see declaration of 'std'
+          
+        C:\\Users\\David\\miniconda3\\Lib\\site-packages\\torch\\include\\c10\\util\\Optional.h(13,1): error C2873: 'bad_optional_access': symbol cannot be used in a using-declaration [C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\charonload\\torch\\cxx_standard_14\\torch_cxx_standard.vcxproj]
+          (compiling source file '../../../../../../../../../../../miniconda3/Lib/site-packages/charonload/cmake/torch/cxx_standard/torch_cxx_standard.cpp')
+          
+        C:\\Users\\David\\miniconda3\\Lib\\site-packages\\torch\\include\\c10\\util\\Optional.h(15,12): error C2039: 'make_optional': is not a member of 'std' [C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\charonload\\torch\\cxx_standard_14\\torch_cxx_standard.vcxproj]
+          (compiling source file '../../../../../../../../../../../miniconda3/Lib/site-packages/charonload/cmake/torch/cxx_standard/torch_cxx_standard.cpp')
+          C:\\Users\\David\\miniconda3\\Lib\\site-packages\\torch\\include\\c10\\util\\Float8_e5m2fnuz-inl.h(225,11):
+          see declaration of 'std'
+          
+        C:\\Users\\David\\miniconda3\\Lib\\site-packages\\torch\\include\\c10\\util\\Optional.h(15,1): error C2873: 'make_optional': symbol cannot be used in a using-declaration [C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\charonload\\torch\\cxx_standard_14\\torch_cxx_standard.vcxproj]
+          (compiling source file '../../../../../../../../../../../miniconda3/Lib/site-packages/charonload/cmake/torch/cxx_standard/torch_cxx_standard.cpp')
+          
+        C:\\Users\\David\\miniconda3\\Lib\\site-packages\\torch\\include\\c10\\util\\Optional.h(17,12): error C2039: 'nullopt': is not a member of 'std' [C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\charonload\\torch\\cxx_standard_14\\torch_cxx_standard.vcxproj]
+          (compiling source file '../../../../../../../../../../../miniconda3/Lib/site-packages/charonload/cmake/torch/cxx_standard/torch_cxx_standard.cpp')
+          C:\\Users\\David\\miniconda3\\Lib\\site-packages\\torch\\include\\c10\\util\\Float8_e5m2fnuz-inl.h(225,11):
+          see declaration of 'std'
+          
+        C:\\Users\\David\\miniconda3\\Lib\\site-packages\\torch\\include\\c10\\util\\Optional.h(17,1): error C2873: 'nullopt': symbol cannot be used in a using-declaration [C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\charonload\\torch\\cxx_standard_14\\torch_cxx_standard.vcxproj]
+          (compiling source file '../../../../../../../../../../../miniconda3/Lib/site-packages/charonload/cmake/torch/cxx_standard/torch_cxx_standard.cpp')
+          
+        C:\\Users\\David\\miniconda3\\Lib\\site-packages\\torch\\include\\c10\\util\\Optional.h(19,12): error C2039: 'nullopt_t': is not a member of 'std' [C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\charonload\\torch\\cxx_standard_14\\torch_cxx_standard.vcxproj]
+          (compiling source file '../../../../../../../../../../../miniconda3/Lib/site-packages/charonload/cmake/torch/cxx_standard/torch_cxx_standard.cpp')
+          C:\\Users\\David\\miniconda3\\Lib\\site-packages\\torch\\include\\c10\\util\\Float8_e5m2fnuz-inl.h(225,11):
+          see declaration of 'std'
+          
+        C:\\Users\\David\\miniconda3\\Lib\\site-packages\\torch\\include\\c10\\util\\Optional.h(19,1): error C2873: 'nullopt_t': symbol cannot be used in a using-declaration [C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\charonload\\torch\\cxx_standard_14\\torch_cxx_standard.vcxproj]
+          (compiling source file '../../../../../../../../../../../miniconda3/Lib/site-packages/charonload/cmake/torch/cxx_standard/torch_cxx_standard.cpp')
+          
+        C:\\Users\\David\\miniconda3\\Lib\\site-packages\\torch\\include\\c10\\util\\Optional.h(21,12): error C2039: 'optional': is not a member of 'std' [C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\charonload\\torch\\cxx_standard_14\\torch_cxx_standard.vcxproj]
+          (compiling source file '../../../../../../../../../../../miniconda3/Lib/site-packages/charonload/cmake/torch/cxx_standard/torch_cxx_standard.cpp')
+          C:\\Users\\David\\miniconda3\\Lib\\site-packages\\torch\\include\\c10\\util\\Float8_e5m2fnuz-inl.h(225,11):
+          see declaration of 'std'
+          
+        C:\\Users\\David\\miniconda3\\Lib\\site-packages\\torch\\include\\c10\\util\\Optional.h(21,1): error C2873: 'optional': symbol cannot be used in a using-declaration [C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\charonload\\torch\\cxx_standard_14\\torch_cxx_standard.vcxproj]
+          (compiling source file '../../../../../../../../../../../miniconda3/Lib/site-packages/charonload/cmake/torch/cxx_standard/torch_cxx_standard.cpp')
+          
+        C:\\Users\\David\\miniconda3\\Lib\\site-packages\\torch\\include\\c10\\util\\Optional.h(32,41): error C2988: unrecognizable template declaration/definition [C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\charonload\\torch\\cxx_standard_14\\torch_cxx_standard.vcxproj]
+          (compiling source file '../../../../../../../../../../../miniconda3/Lib/site-packages/charonload/cmake/torch/cxx_standard/torch_cxx_standard.cpp')
+          
+        C:\\Users\\David\\miniconda3\\Lib\\site-packages\\torch\\include\\c10\\util\\Optional.h(32,41): error C2143: syntax error: missing ',' before '<' [C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\charonload\\torch\\cxx_standard_14\\torch_cxx_standard.vcxproj]
+          (compiling source file '../../../../../../../../../../../miniconda3/Lib/site-packages/charonload/cmake/torch/cxx_standard/torch_cxx_standard.cpp')
+          
+        C:\\Users\\David\\miniconda3\\Lib\\site-packages\\torch\\include\\c10\\util\\Optional.h(40,27): error C2065: 'optional': undeclared identifier [C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\charonload\\torch\\cxx_standard_14\\torch_cxx_standard.vcxproj]
+          (compiling source file '../../../../../../../../../../../miniconda3/Lib/site-packages/charonload/cmake/torch/cxx_standard/torch_cxx_standard.cpp')
+          
+        C:\\Users\\David\\miniconda3\\Lib\\site-packages\\torch\\include\\c10\\util\\Optional.h(40,38): error C2988: unrecognizable template declaration/definition [C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\charonload\\torch\\cxx_standard_14\\torch_cxx_standard.vcxproj]
+          (compiling source file '../../../../../../../../../../../miniconda3/Lib/site-packages/charonload/cmake/torch/cxx_standard/torch_cxx_standard.cpp')
+          
+        C:\\Users\\David\\miniconda3\\Lib\\site-packages\\torch\\include\\c10\\util\\Optional.h(40,38): error C2059: syntax error: '&&' [C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\charonload\\torch\\cxx_standard_14\\torch_cxx_standard.vcxproj]
+          (compiling source file '../../../../../../../../../../../miniconda3/Lib/site-packages/charonload/cmake/torch/cxx_standard/torch_cxx_standard.cpp')
+          
+        C:\\Users\\David\\miniconda3\\Lib\\site-packages\\torch\\include\\c10\\util\\Optional.h(40,54): error C2143: syntax error: missing ';' before '{' [C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\charonload\\torch\\cxx_standard_14\\torch_cxx_standard.vcxproj]
+          (compiling source file '../../../../../../../../../../../miniconda3/Lib/site-packages/charonload/cmake/torch/cxx_standard/torch_cxx_standard.cpp')
+          
+        C:\\Users\\David\\miniconda3\\Lib\\site-packages\\torch\\include\\c10\\util\\Optional.h(40,54): error C2447: '{': missing function header (old-style formal list?) [C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\charonload\\torch\\cxx_standard_14\\torch_cxx_standard.vcxproj]
+          (compiling source file '../../../../../../../../../../../miniconda3/Lib/site-packages/charonload/cmake/torch/cxx_standard/torch_cxx_standard.cpp')
+          
+        C:\\Users\\David\\miniconda3\\Lib\\site-packages\\torch\\include\\c10\\util\\MaybeOwned.h(85,28): error C2061: syntax error: identifier 'in_place_t' [C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\charonload\\torch\\cxx_standard_14\\torch_cxx_standard.vcxproj]
+          (compiling source file '../../../../../../../../../../../miniconda3/Lib/site-packages/charonload/cmake/torch/cxx_standard/torch_cxx_standard.cpp')
+          C:\\Users\\David\\miniconda3\\Lib\\site-packages\\torch\\include\\c10\\util\\MaybeOwned.h(85,28):
+          the template instantiation context (the oldest one first) is
+          	C:\\Users\\David\\miniconda3\\Lib\\site-packages\\torch\\include\\c10\\util\\MaybeOwned.h(235,2):
+          	see reference to class template instantiation 'c10::MaybeOwned<T>' being compiled
+          
+        C:\\Users\\David\\miniconda3\\Lib\\site-packages\\torch\\include\\c10\\util\\MaybeOwned.h(180,32): error C2061: syntax error: identifier 'in_place_t' [C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\charonload\\torch\\cxx_standard_14\\torch_cxx_standard.vcxproj]
+          (compiling source file '../../../../../../../../../../../miniconda3/Lib/site-packages/charonload/cmake/torch/cxx_standard/torch_cxx_standard.cpp')
+          
+        C:\\Users\\David\\miniconda3\\Lib\\site-packages\\torch\\include\\c10\\util\\intrusive_ptr.h(88,42): error C2039: 'incref': is not a member of 'c10::raw::intrusive_ptr' [C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\charonload\\torch\\cxx_standard_14\\torch_cxx_standard.vcxproj]
+          (compiling source file '../../../../../../../../../../../miniconda3/Lib/site-packages/charonload/cmake/torch/cxx_standard/torch_cxx_standard.cpp')
+          C:\\Users\\David\\miniconda3\\Lib\\site-packages\\torch\\include\\c10\\util\\intrusive_ptr.h(21,11):
+          see declaration of 'c10::raw::intrusive_ptr'
+          
+        C:\\Users\\David\\miniconda3\\Lib\\site-packages\\torch\\include\\c10\\util\\intrusive_ptr.h(92,47): error C2039: 'incref': is not a member of 'c10::raw::weak_intrusive_ptr' [C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\charonload\\torch\\cxx_standard_14\\torch_cxx_standard.vcxproj]
+          (compiling source file '../../../../../../../../../../../miniconda3/Lib/site-packages/charonload/cmake/torch/cxx_standard/torch_cxx_standard.cpp')
+          C:\\Users\\David\\miniconda3\\Lib\\site-packages\\torch\\include\\c10\\util\\intrusive_ptr.h(18,11):
+          see declaration of 'c10::raw::weak_intrusive_ptr'
+          
+        C:\\Users\\David\\miniconda3\\Lib\\site-packages\\torch\\include\\c10\\util\\intrusive_ptr.h(118,5): error C2059: syntax error: 'if' [C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\charonload\\torch\\cxx_standard_14\\torch_cxx_standard.vcxproj]
+          (compiling source file '../../../../../../../../../../../miniconda3/Lib/site-packages/charonload/cmake/torch/cxx_standard/torch_cxx_standard.cpp')
+          
+        C:\\Users\\David\\miniconda3\\Lib\\site-packages\\torch\\include\\c10\\util\\intrusive_ptr.h(118,5): error C2334: unexpected token(s) preceding '{'; skipping apparent function body [C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\charonload\\torch\\cxx_standard_14\\torch_cxx_standard.vcxproj]
+          (compiling source file '../../../../../../../../../../../miniconda3/Lib/site-packages/charonload/cmake/torch/cxx_standard/torch_cxx_standard.cpp')
+          
+        C:\\Users\\David\\miniconda3\\Lib\\site-packages\\torch\\include\\c10\\util\\intrusive_ptr.h(133,5): error C2059: syntax error: 'if' [C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\charonload\\torch\\cxx_standard_14\\torch_cxx_standard.vcxproj]
+          (compiling source file '../../../../../../../../../../../miniconda3/Lib/site-packages/charonload/cmake/torch/cxx_standard/torch_cxx_standard.cpp')
+          
+        C:\\Users\\David\\miniconda3\\Lib\\site-packages\\torch\\include\\c10\\util\\intrusive_ptr.h(133,5): error C2334: unexpected token(s) preceding '{'; skipping apparent function body [C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\charonload\\torch\\cxx_standard_14\\torch_cxx_standard.vcxproj]
+          (compiling source file '../../../../../../../../../../../miniconda3/Lib/site-packages/charonload/cmake/torch/cxx_standard/torch_cxx_standard.cpp')
+          
+        C:\\Users\\David\\miniconda3\\Lib\\site-packages\\torch\\include\\c10\\util\\intrusive_ptr.h(147,75): error C2550: 'c10::intrusive_ptr_target': constructor initializer lists are only allowed on constructor definitions [C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\charonload\\torch\\cxx_standard_14\\torch_cxx_standard.vcxproj]
+          (compiling source file '../../../../../../../../../../../miniconda3/Lib/site-packages/charonload/cmake/torch/cxx_standard/torch_cxx_standard.cpp')
+          
+        C:\\Users\\David\\miniconda3\\Lib\\site-packages\\torch\\include\\c10\\util\\intrusive_ptr.h(147,13): error C3615: constexpr function 'c10::intrusive_ptr_target' cannot result in a constant expression [C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\charonload\\torch\\cxx_standard_14\\torch_cxx_standard.vcxproj]
+          (compiling source file '../../../../../../../../../../../miniconda3/Lib/site-packages/charonload/cmake/torch/cxx_standard/torch_cxx_standard.cpp')
+          C:\\Users\\David\\miniconda3\\Lib\\site-packages\\torch\\include\\c10\\util\\intrusive_ptr.h(147,13):
+          failure was because type 'c10::intrusive_ptr_target' is not a literal type
+          C:\\Users\\David\\miniconda3\\Lib\\site-packages\\torch\\include\\c10\\util\\intrusive_ptr.h(101,12):
+          type 'c10::intrusive_ptr_target' is not a literal type because it has a user-defined destructor
+          C:\\Users\\David\\miniconda3\\Lib\\site-packages\\torch\\include\\c10\\util\\intrusive_ptr.h(147,13):
+          failure was caused by control reaching the end of a constexpr function
+          
+        C:\\Users\\David\\miniconda3\\Lib\\site-packages\\torch\\include\\c10\\util\\intrusive_ptr.h(152,56): error C2059: syntax error: ')' [C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\charonload\\torch\\cxx_standard_14\\torch_cxx_standard.vcxproj]
+          (compiling source file '../../../../../../../../../../../miniconda3/Lib/site-packages/charonload/cmake/torch/cxx_standard/torch_cxx_standard.cpp')
+          
+        C:\\Users\\David\\miniconda3\\Lib\\site-packages\\torch\\include\\c10\\util\\intrusive_ptr.h(155,23): error C2143: syntax error: missing ';' before '&' [C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\charonload\\torch\\cxx_standard_14\\torch_cxx_standard.vcxproj]
+          (compiling source file '../../../../../../../../../../../miniconda3/Lib/site-packages/charonload/cmake/torch/cxx_standard/torch_cxx_standard.cpp')
+          
+        C:\\Users\\David\\miniconda3\\Lib\\site-packages\\torch\\include\\c10\\util\\intrusive_ptr.h(155,67): error C2059: syntax error: ')' [C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\charonload\\torch\\cxx_standard_14\\torch_cxx_standard.vcxproj]
+          (compiling source file '../../../../../../../../../../../miniconda3/Lib/site-packages/charonload/cmake/torch/cxx_standard/torch_cxx_standard.cpp')
+          
+        C:\\Users\\David\\miniconda3\\Lib\\site-packages\\torch\\include\\c10\\util\\intrusive_ptr.h(155,78): error C2143: syntax error: missing ';' before '{' [C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\charonload\\torch\\cxx_standard_14\\torch_cxx_standard.vcxproj]
+          (compiling source file '../../../../../../../../../../../miniconda3/Lib/site-packages/charonload/cmake/torch/cxx_standard/torch_cxx_standard.cpp')
+          
+        C:\\Users\\David\\miniconda3\\Lib\\site-packages\\torch\\include\\c10\\util\\intrusive_ptr.h(155,78): error C2447: '{': missing function header (old-style formal list?) [C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\charonload\\torch\\cxx_standard_14\\torch_cxx_standard.vcxproj]
+          (compiling source file '../../../../../../../../../../../miniconda3/Lib/site-packages/charonload/cmake/torch/cxx_standard/torch_cxx_standard.cpp')
+          
+        C:\\Users\\David\\miniconda3\\Lib\\site-packages\\torch\\include\\c10\\util\\intrusive_ptr.h(159,50): error C2143: syntax error: missing ',' before '&' [C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\charonload\\torch\\cxx_standard_14\\torch_cxx_standard.vcxproj]
+          (compiling source file '../../../../../../../../../../../miniconda3/Lib/site-packages/charonload/cmake/torch/cxx_standard/torch_cxx_standard.cpp')
+          
+        C:\\Users\\David\\miniconda3\\Lib\\site-packages\\torch\\include\\c10\\util\\intrusive_ptr.h(160,32): error C2550: 'c10::intrusive_ptr_target': constructor initializer lists are only allowed on constructor definitions [C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\charonload\\torch\\cxx_standard_14\\torch_cxx_standard.vcxproj]
+          (compiling source file '../../../../../../../../../../../miniconda3/Lib/site-packages/charonload/cmake/torch/cxx_standard/torch_cxx_standard.cpp')
+          
+        C:\\Users\\David\\miniconda3\\Lib\\site-packages\\torch\\include\\c10\\util\\intrusive_ptr.h(162,23): error C2143: syntax error: missing ';' before '&' [C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\charonload\\torch\\cxx_standard_14\\torch_cxx_standard.vcxproj]
+          (compiling source file '../../../../../../../../../../../miniconda3/Lib/site-packages/charonload/cmake/torch/cxx_standard/torch_cxx_standard.cpp')
+          
+        C:\\Users\\David\\miniconda3\\Lib\\site-packages\\torch\\include\\c10\\util\\intrusive_ptr.h(163,33): error C2143: syntax error: missing ',' before '&' [C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\charonload\\torch\\cxx_standard_14\\torch_cxx_standard.vcxproj]
+          (compiling source file '../../../../../../../../../../../miniconda3/Lib/site-packages/charonload/cmake/torch/cxx_standard/torch_cxx_standard.cpp')
+          
+        C:\\Users\\David\\miniconda3\\Lib\\site-packages\\torch\\include\\c10\\util\\intrusive_ptr.h(163,55): error C2059: syntax error: '{' [C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\charonload\\torch\\cxx_standard_14\\torch_cxx_standard.vcxproj]
+          (compiling source file '../../../../../../../../../../../miniconda3/Lib/site-packages/charonload/cmake/torch/cxx_standard/torch_cxx_standard.cpp')
+          
+        C:\\Users\\David\\miniconda3\\Lib\\site-packages\\torch\\include\\c10\\util\\intrusive_ptr.h(163,55): error C2143: syntax error: missing ';' before '{' [C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\charonload\\torch\\cxx_standard_14\\torch_cxx_standard.vcxproj]
+          (compiling source file '../../../../../../../../../../../miniconda3/Lib/site-packages/charonload/cmake/torch/cxx_standard/torch_cxx_standard.cpp')
+          
+        C:\\Users\\David\\miniconda3\\Lib\\site-packages\\torch\\include\\c10\\util\\intrusive_ptr.h(163,55): error C2447: '{': missing function header (old-style formal list?) [C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\charonload\\torch\\cxx_standard_14\\torch_cxx_standard.vcxproj]
+          (compiling source file '../../../../../../../../../../../miniconda3/Lib/site-packages/charonload/cmake/torch/cxx_standard/torch_cxx_standard.cpp')
+          
+        C:\\Users\\David\\miniconda3\\Lib\\site-packages\\torch\\include\\c10\\util\\intrusive_ptr.h(167,2): error C2059: syntax error: 'private' [C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\charonload\\torch\\cxx_standard_14\\torch_cxx_standard.vcxproj]
+          (compiling source file '../../../../../../../../../../../miniconda3/Lib/site-packages/charonload/cmake/torch/cxx_standard/torch_cxx_standard.cpp')
+          
+        C:\\Users\\David\\miniconda3\\Lib\\site-packages\\torch\\include\\c10\\util\\intrusive_ptr.h(179,16): error C2575: 'release_resources': only member functions and bases can be virtual [C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\charonload\\torch\\cxx_standard_14\\torch_cxx_standard.vcxproj]
+          (compiling source file '../../../../../../../../../../../miniconda3/Lib/site-packages/charonload/cmake/torch/cxx_standard/torch_cxx_standard.cpp')
+          
+        C:\\Users\\David\\miniconda3\\Lib\\site-packages\\torch\\include\\c10\\util\\intrusive_ptr.h(341,43): error C2653: 'raw': is not a class or namespace name [C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\charonload\\torch\\cxx_standard_14\\torch_cxx_standard.vcxproj]
+          (compiling source file '../../../../../../../../../../../miniconda3/Lib/site-packages/charonload/cmake/torch/cxx_standard/torch_cxx_standard.cpp')
+          C:\\Users\\David\\miniconda3\\Lib\\site-packages\\torch\\include\\c10\\util\\intrusive_ptr.h(341,43):
+          the template instantiation context (the oldest one first) is
+          	C:\\Users\\David\\miniconda3\\Lib\\site-packages\\torch\\include\\c10\\util\\intrusive_ptr.h(583,2):
+          	see reference to class template instantiation 'intrusive_ptr<TTarget,NullType>' being compiled
+          
+        C:\\Users\\David\\miniconda3\\Lib\\site-packages\\torch\\include\\c10\\util\\intrusive_ptr.h(341,48): error C2061: syntax error: identifier 'DontIncreaseRefcount' [C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\charonload\\torch\\cxx_standard_14\\torch_cxx_standard.vcxproj]
+          (compiling source file '../../../../../../../../../../../miniconda3/Lib/site-packages/charonload/cmake/torch/cxx_standard/torch_cxx_standard.cpp')
+          
+        C:\\Users\\David\\miniconda3\\Lib\\site-packages\\torch\\include\\c10\\util\\intrusive_ptr.h(341,3): error C2382: 'intrusive_ptr<TTarget,NullType>::intrusive_ptr': redefinition; different exception specifications [C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\charonload\\torch\\cxx_standard_14\\torch_cxx_standard.vcxproj]
+          (compiling source file '../../../../../../../../../../../miniconda3/Lib/site-packages/charonload/cmake/torch/cxx_standard/torch_cxx_standard.cpp')
+          C:\\Users\\David\\miniconda3\\Lib\\site-packages\\torch\\include\\c10\\util\\intrusive_ptr.h(311,3):
+          see declaration of 'intrusive_ptr<TTarget,NullType>::intrusive_ptr'
+          
+        C:\\Users\\David\\miniconda3\\Lib\\site-packages\\torch\\include\\c10\\util\\intrusive_ptr.h(650,24): error C3856: 'MaybeOwnedTraits': symbol is not a class template [C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\charonload\\torch\\cxx_standard_14\\torch_cxx_standard.vcxproj]
+          (compiling source file '../../../../../../../../../../../miniconda3/Lib/site-packages/charonload/cmake/torch/cxx_standard/torch_cxx_standard.cpp')
+          
+        C:\\Users\\David\\miniconda3\\Lib\\site-packages\\torch\\include\\c10\\util\\intrusive_ptr.h(650,44): error C2065: 'T': undeclared identifier [C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\charonload\\torch\\cxx_standard_14\\torch_cxx_standard.vcxproj]
+          (compiling source file '../../../../../../../../../../../miniconda3/Lib/site-packages/charonload/cmake/torch/cxx_standard/torch_cxx_standard.cpp')
+          
+        C:\\Users\\David\\miniconda3\\Lib\\site-packages\\torch\\include\\c10\\util\\intrusive_ptr.h(650,30): error C2923: 'c10::intrusive_ptr': 'T' is not a valid template type argument for parameter 'T' [C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\charonload\\torch\\cxx_standard_14\\torch_cxx_standard.vcxproj]
+          (compiling source file '../../../../../../../../../../../miniconda3/Lib/site-packages/charonload/cmake/torch/cxx_standard/torch_cxx_standard.cpp')
+          C:\\Users\\David\\miniconda3\\Lib\\site-packages\\torch\\include\\c10\\util\\intrusive_ptr.h(650,44):
+          see declaration of 'T'
+          
+        C:\\Users\\David\\miniconda3\\Lib\\site-packages\\torch\\include\\c10\\util\\intrusive_ptr.h(650,30): error C2976: 'c10::intrusive_ptr': too few template arguments [C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\charonload\\torch\\cxx_standard_14\\torch_cxx_standard.vcxproj]
+          (compiling source file '../../../../../../../../../../../miniconda3/Lib/site-packages/charonload/cmake/torch/cxx_standard/torch_cxx_standard.cpp')
+          C:\\Users\\David\\miniconda3\\Lib\\site-packages\\torch\\include\\c10\\util\\intrusive_ptr.h(87,16):
+          see declaration of 'c10::intrusive_ptr'
+          
+        C:\\Users\\David\\miniconda3\\Lib\\site-packages\\torch\\include\\c10\\util\\intrusive_ptr.h(650,30): error C2143: syntax error: missing ';' before 'c10::intrusive_ptr' [C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\charonload\\torch\\cxx_standard_14\\torch_cxx_standard.vcxproj]
+          (compiling source file '../../../../../../../../../../../miniconda3/Lib/site-packages/charonload/cmake/torch/cxx_standard/torch_cxx_standard.cpp')
+          
+        C:\\Users\\David\\miniconda3\\Lib\\site-packages\\torch\\include\\c10\\util\\intrusive_ptr.h(650,1): error C2059: syntax error: '>' [C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\charonload\\torch\\cxx_standard_14\\torch_cxx_standard.vcxproj]
+          (compiling source file '../../../../../../../../../../../miniconda3/Lib/site-packages/charonload/cmake/torch/cxx_standard/torch_cxx_standard.cpp')
+          
+        C:\\Users\\David\\miniconda3\\Lib\\site-packages\\torch\\include\\c10\\util\\intrusive_ptr.h(650,48): error C2143: syntax error: missing ';' before '{' [C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\charonload\\torch\\cxx_standard_14\\torch_cxx_standard.vcxproj]
+          (compiling source file '../../../../../../../../../../../miniconda3/Lib/site-packages/charonload/cmake/torch/cxx_standard/torch_cxx_standard.cpp')
+          
+        C:\\Users\\David\\miniconda3\\Lib\\site-packages\\torch\\include\\c10\\util\\intrusive_ptr.h(650,48): error C2447: '{': missing function header (old-style formal list?) [C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\charonload\\torch\\cxx_standard_14\\torch_cxx_standard.vcxproj]
+          (compiling source file '../../../../../../../../../../../miniconda3/Lib/site-packages/charonload/cmake/torch/cxx_standard/torch_cxx_standard.cpp')
+          
+        C:\\Users\\David\\miniconda3\\Lib\\site-packages\\torch\\include\\c10\\util\\intrusive_ptr.h(971,35): error C2187: syntax error: 'intrusive_ptr_target' was unexpected here [C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\charonload\\torch\\cxx_standard_14\\torch_cxx_standard.vcxproj]
+          (compiling source file '../../../../../../../../../../../miniconda3/Lib/site-packages/charonload/cmake/torch/cxx_standard/torch_cxx_standard.cpp')
+          
+        C:\\Users\\David\\miniconda3\\Lib\\site-packages\\torch\\include\\c10\\util\\intrusive_ptr.h(991,20): error C2065: 'intrusive_ptr_target': undeclared identifier [C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\charonload\\torch\\cxx_standard_14\\torch_cxx_standard.vcxproj]
+          (compiling source file '../../../../../../../../../../../miniconda3/Lib/site-packages/charonload/cmake/torch/cxx_standard/torch_cxx_standard.cpp')
+          
+        C:\\Users\\David\\miniconda3\\Lib\\site-packages\\torch\\include\\c10\\util\\intrusive_ptr.h(991,42): error C2065: 'self': undeclared identifier [C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\charonload\\torch\\cxx_standard_14\\torch_cxx_standard.vcxproj]
+          (compiling source file '../../../../../../../../../../../miniconda3/Lib/site-packages/charonload/cmake/torch/cxx_standard/torch_cxx_standard.cpp')
+          
+        C:\\Users\\David\\miniconda3\\Lib\\site-packages\\torch\\include\\c10\\util\\intrusive_ptr.h(991,13): error C2182: 'incref': this use of 'void' is not valid [C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\charonload\\torch\\cxx_standard_14\\torch_cxx_standard.vcxproj]
+          (compiling source file '../../../../../../../../../../../miniconda3/Lib/site-packages/charonload/cmake/torch/cxx_standard/torch_cxx_standard.cpp')
+          
+        C:\\Users\\David\\miniconda3\\Lib\\site-packages\\torch\\include\\c10\\util\\intrusive_ptr.h(991,13): error C7525: inline variables require at least '/std:c++17' [C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\charonload\\torch\\cxx_standard_14\\torch_cxx_standard.vcxproj]
+          (compiling source file '../../../../../../../../../../../miniconda3/Lib/site-packages/charonload/cmake/torch/cxx_standard/torch_cxx_standard.cpp')
+          
+        C:\\Users\\David\\miniconda3\\Lib\\site-packages\\torch\\include\\c10\\util\\intrusive_ptr.h(991,48): error C2143: syntax error: missing ';' before '{' [C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\charonload\\torch\\cxx_standard_14\\torch_cxx_standard.vcxproj]
+          (compiling source file '../../../../../../../../../../../miniconda3/Lib/site-packages/charonload/cmake/torch/cxx_standard/torch_cxx_standard.cpp')
+          
+        C:\\Users\\David\\miniconda3\\Lib\\site-packages\\torch\\include\\c10\\util\\intrusive_ptr.h(991,48): error C2447: '{': missing function header (old-style formal list?) [C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\charonload\\torch\\cxx_standard_14\\torch_cxx_standard.vcxproj]
+          (compiling source file '../../../../../../../../../../../miniconda3/Lib/site-packages/charonload/cmake/torch/cxx_standard/torch_cxx_standard.cpp')
+          
+        C:\\Users\\David\\miniconda3\\Lib\\site-packages\\torch\\include\\c10\\util\\intrusive_ptr.h(999,20): error C2065: 'intrusive_ptr_target': undeclared identifier [C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\charonload\\torch\\cxx_standard_14\\torch_cxx_standard.vcxproj]
+          (compiling source file '../../../../../../../../../../../miniconda3/Lib/site-packages/charonload/cmake/torch/cxx_standard/torch_cxx_standard.cpp')
+          
+        C:\\Users\\David\\miniconda3\\Lib\\site-packages\\torch\\include\\c10\\util\\intrusive_ptr.h(999,42): error C2065: 'self': undeclared identifier [C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\charonload\\torch\\cxx_standard_14\\torch_cxx_standard.vcxproj]
+          (compiling source file '../../../../../../../../../../../miniconda3/Lib/site-packages/charonload/cmake/torch/cxx_standard/torch_cxx_standard.cpp')
+          
+        C:\\Users\\David\\miniconda3\\Lib\\site-packages\\torch\\include\\c10\\util\\intrusive_ptr.h(999,13): error C2182: 'decref': this use of 'void' is not valid [C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\charonload\\torch\\cxx_standard_14\\torch_cxx_standard.vcxproj]
+          (compiling source file '../../../../../../../../../../../miniconda3/Lib/site-packages/charonload/cmake/torch/cxx_standard/torch_cxx_standard.cpp')
+          
+        C:\\Users\\David\\miniconda3\\Lib\\site-packages\\torch\\include\\c10\\util\\intrusive_ptr.h(999,13): error C7525: inline variables require at least '/std:c++17' [C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\charonload\\torch\\cxx_standard_14\\torch_cxx_standard.vcxproj]
+          (compiling source file '../../../../../../../../../../../miniconda3/Lib/site-packages/charonload/cmake/torch/cxx_standard/torch_cxx_standard.cpp')
+          
+        C:\\Users\\David\\miniconda3\\Lib\\site-packages\\torch\\include\\c10\\util\\intrusive_ptr.h(999,48): error C2143: syntax error: missing ';' before '{' [C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\charonload\\torch\\cxx_standard_14\\torch_cxx_standard.vcxproj]
+          (compiling source file '../../../../../../../../../../../miniconda3/Lib/site-packages/charonload/cmake/torch/cxx_standard/torch_cxx_standard.cpp')
+          
+        C:\\Users\\David\\miniconda3\\Lib\\site-packages\\torch\\include\\c10\\util\\intrusive_ptr.h(999,48): error C2447: '{': missing function header (old-style formal list?) [C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\charonload\\torch\\cxx_standard_14\\torch_cxx_standard.vcxproj]
+          (compiling source file '../../../../../../../../../../../miniconda3/Lib/site-packages/charonload/cmake/torch/cxx_standard/torch_cxx_standard.cpp')
+          
+        C:\\Users\\David\\miniconda3\\Lib\\site-packages\\torch\\include\\c10\\util\\intrusive_ptr.h(1015,27): error C2065: 'intrusive_ptr_target': undeclared identifier [C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\charonload\\torch\\cxx_standard_14\\torch_cxx_standard.vcxproj]
+          (compiling source file '../../../../../../../../../../../miniconda3/Lib/site-packages/charonload/cmake/torch/cxx_standard/torch_cxx_standard.cpp')
+          
+        C:\\Users\\David\\miniconda3\\Lib\\site-packages\\torch\\include\\c10\\util\\intrusive_ptr.h(1015,49): error C2065: 'self': undeclared identifier [C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\charonload\\torch\\cxx_standard_14\\torch_cxx_standard.vcxproj]
+          (compiling source file '../../../../../../../../../../../miniconda3/Lib/site-packages/charonload/cmake/torch/cxx_standard/torch_cxx_standard.cpp')
+          
+        C:\\Users\\David\\miniconda3\\Lib\\site-packages\\torch\\include\\c10\\util\\intrusive_ptr.h(1015,17): error C7525: inline variables require at least '/std:c++17' [C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\charonload\\torch\\cxx_standard_14\\torch_cxx_standard.vcxproj]
+          (compiling source file '../../../../../../../../../../../miniconda3/Lib/site-packages/charonload/cmake/torch/cxx_standard/torch_cxx_standard.cpp')
+          
+        C:\\Users\\David\\miniconda3\\Lib\\site-packages\\torch\\include\\c10\\util\\intrusive_ptr.h(1015,55): error C2143: syntax error: missing ';' before '{' [C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\charonload\\torch\\cxx_standard_14\\torch_cxx_standard.vcxproj]
+          (compiling source file '../../../../../../../../../../../miniconda3/Lib/site-packages/charonload/cmake/torch/cxx_standard/torch_cxx_standard.cpp')
+          
+        C:\\Users\\David\\miniconda3\\Lib\\site-packages\\torch\\include\\c10\\util\\intrusive_ptr.h(1015,55): error C2447: '{': missing function header (old-style formal list?) [C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\charonload\\torch\\cxx_standard_14\\torch_cxx_standard.vcxproj]
+          (compiling source file '../../../../../../../../../../../miniconda3/Lib/site-packages/charonload/cmake/torch/cxx_standard/torch_cxx_standard.cpp')
+          
+        C:\\Users\\David\\miniconda3\\Lib\\site-packages\\torch\\include\\c10\\util\\intrusive_ptr.h(1026,20): error C2065: 'weak_intrusive_ptr_target': undeclared identifier [C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\charonload\\torch\\cxx_standard_14\\torch_cxx_standard.vcxproj]
+          (compiling source file '../../../../../../../../../../../miniconda3/Lib/site-packages/charonload/cmake/torch/cxx_standard/torch_cxx_standard.cpp')
+          
+        C:\\Users\\David\\miniconda3\\Lib\\site-packages\\torch\\include\\c10\\util\\intrusive_ptr.h(1026,47): error C2065: 'self': undeclared identifier [C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\charonload\\torch\\cxx_standard_14\\torch_cxx_standard.vcxproj]
+          (compiling source file '../../../../../../../../../../../miniconda3/Lib/site-packages/charonload/cmake/torch/cxx_standard/torch_cxx_standard.cpp')
+          
+        C:\\Users\\David\\miniconda3\\Lib\\site-packages\\torch\\include\\c10\\util\\intrusive_ptr.h(1026,47): error C1003: error count exceeds 100; stopping compilation [C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\charonload\\torch\\cxx_standard_14\\torch_cxx_standard.vcxproj]
+          (compiling source file '../../../../../../../../../../../miniconda3/Lib/site-packages/charonload/cmake/torch/cxx_standard/torch_cxx_standard.cpp')
+          
+        Done Building Project "C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\charonload\\torch\\cxx_standard_14\\torch_cxx_standard.vcxproj" (default targets) -- FAILED.
+        Done Building Project "C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\charonload\\torch\\cxx_standard_14\\ALL_BUILD.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\charonload\\torch\\cxx_standard_14\\ALL_BUILD.vcxproj" (default target) (1) ->
+        "C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\charonload\\torch\\cxx_standard_14\\torch_cxx_standard.vcxproj" (default target) (3) ->
+        (ClCompile target) -> 
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\include\\string_view(12): warning STL4038: The contents of <string_view> are available only with C++17 or later. [C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\charonload\\torch\\cxx_standard_14\\torch_cxx_standard.vcxproj]
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\include\\variant(12): warning STL4038: The contents of <variant> are available only with C++17 or later. [C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\charonload\\torch\\cxx_standard_14\\torch_cxx_standard.vcxproj]
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\include\\optional(11): warning STL4038: The contents of <optional> are available only with C++17 or later. [C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\charonload\\torch\\cxx_standard_14\\torch_cxx_standard.vcxproj]
+        
+        
+        "C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\charonload\\torch\\cxx_standard_14\\ALL_BUILD.vcxproj" (default target) (1) ->
+        "C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\charonload\\torch\\cxx_standard_14\\torch_cxx_standard.vcxproj" (default target) (3) ->
+        (ClCompile target) -> 
+          C:\\Users\\David\\miniconda3\\Lib\\site-packages\\torch\\include\\c10\\macros\\Macros.h(156,21): error C2429: language feature 'nested-namespace-definition' requires compiler flag '/std:c++17' [C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\charonload\\torch\\cxx_standard_14\\torch_cxx_standard.vcxproj]
+          C:\\Users\\David\\miniconda3\\Lib\\site-packages\\torch\\include\\c10\\macros\\Macros.h(157,20): error C2429: language feature 'nested-namespace-definition' requires compiler flag '/std:c++17' [C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\charonload\\torch\\cxx_standard_14\\torch_cxx_standard.vcxproj]
+          C:\\Users\\David\\miniconda3\\Lib\\site-packages\\torch\\include\\c10\\macros\\Macros.h(158,20): error C2429: language feature 'nested-namespace-definition' requires compiler flag '/std:c++17' [C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\charonload\\torch\\cxx_standard_14\\torch_cxx_standard.vcxproj]
+          C:\\Users\\David\\miniconda3\\Lib\\site-packages\\torch\\include\\c10\\macros\\Macros.h(170,20): error C2429: language feature 'nested-namespace-definition' requires compiler flag '/std:c++17' [C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\charonload\\torch\\cxx_standard_14\\torch_cxx_standard.vcxproj]
+          C:\\Users\\David\\miniconda3\\Lib\\site-packages\\torch\\include\\c10\\macros\\Macros.h(182,20): error C2429: language feature 'nested-namespace-definition' requires compiler flag '/std:c++17' [C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\charonload\\torch\\cxx_standard_14\\torch_cxx_standard.vcxproj]
+          C:\\Users\\David\\miniconda3\\Lib\\site-packages\\torch\\include\\c10\\macros\\Macros.h(186,19): error C2429: language feature 'nested-namespace-definition' requires compiler flag '/std:c++17' [C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\charonload\\torch\\cxx_standard_14\\torch_cxx_standard.vcxproj]
+          C:\\Users\\David\\miniconda3\\Lib\\site-packages\\torch\\include\\c10\\util\\Exception.h(122,34): error C2039: 'variant': is not a member of 'std' [C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\charonload\\torch\\cxx_standard_14\\torch_cxx_standard.vcxproj]
+          C:\\Users\\David\\miniconda3\\Lib\\site-packages\\torch\\include\\c10\\util\\Exception.h(122,34): error C2061: syntax error: identifier 'variant' [C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\charonload\\torch\\cxx_standard_14\\torch_cxx_standard.vcxproj]
+          C:\\Users\\David\\miniconda3\\Lib\\site-packages\\torch\\include\\c10\\util\\Exception.h(125,7): error C2061: syntax error: identifier 'warning_variant_t' [C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\charonload\\torch\\cxx_standard_14\\torch_cxx_standard.vcxproj]
+          C:\\Users\\David\\miniconda3\\Lib\\site-packages\\torch\\include\\c10\\util\\Exception.h(131,7): error C2061: syntax error: identifier 'warning_variant_t' [C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\charonload\\torch\\cxx_standard_14\\torch_cxx_standard.vcxproj]
+          C:\\Users\\David\\miniconda3\\Lib\\site-packages\\torch\\include\\c10\\util\\Exception.h(130,3): error C2535: 'c10::Warning::Warning(void)': member function already defined or declared [C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\charonload\\torch\\cxx_standard_14\\torch_cxx_standard.vcxproj]
+          C:\\Users\\David\\miniconda3\\Lib\\site-packages\\torch\\include\\c10\\util\\Exception.h(137,7): error C2061: syntax error: identifier 'warning_variant_t' [C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\charonload\\torch\\cxx_standard_14\\torch_cxx_standard.vcxproj]
+          C:\\Users\\David\\miniconda3\\Lib\\site-packages\\torch\\include\\c10\\util\\Exception.h(136,3): error C2535: 'c10::Warning::Warning(void)': member function already defined or declared [C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\charonload\\torch\\cxx_standard_14\\torch_cxx_standard.vcxproj]
+          C:\\Users\\David\\miniconda3\\Lib\\site-packages\\torch\\include\\c10\\util\\Exception.h(143,21): error C3646: 'type': unknown override specifier [C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\charonload\\torch\\cxx_standard_14\\torch_cxx_standard.vcxproj]
+          C:\\Users\\David\\miniconda3\\Lib\\site-packages\\torch\\include\\c10\\util\\Exception.h(143,25): error C2059: syntax error: '(' [C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\charonload\\torch\\cxx_standard_14\\torch_cxx_standard.vcxproj]
+          C:\\Users\\David\\miniconda3\\Lib\\site-packages\\torch\\include\\c10\\util\\Exception.h(143,33): error C2238: unexpected token(s) preceding ';' [C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\charonload\\torch\\cxx_standard_14\\torch_cxx_standard.vcxproj]
+          C:\\Users\\David\\miniconda3\\Lib\\site-packages\\torch\\include\\c10\\util\\Exception.h(150,21): error C3646: 'type_': unknown override specifier [C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\charonload\\torch\\cxx_standard_14\\torch_cxx_standard.vcxproj]
+          C:\\Users\\David\\miniconda3\\Lib\\site-packages\\torch\\include\\c10\\util\\Exception.h(453,23): error C2429: language feature 'nested-namespace-definition' requires compiler flag '/std:c++17' [C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\charonload\\torch\\cxx_standard_14\\torch_cxx_standard.vcxproj]
+          C:\\Users\\David\\miniconda3\\Lib\\site-packages\\torch\\include\\c10\\util\\Exception.h(482,23): error C2429: language feature 'nested-namespace-definition' requires compiler flag '/std:c++17' [C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\charonload\\torch\\cxx_standard_14\\torch_cxx_standard.vcxproj]
+          C:\\Users\\David\\miniconda3\\Lib\\site-packages\\torch\\include\\c10\\util\\Exception.h(649,23): error C2429: language feature 'nested-namespace-definition' requires compiler flag '/std:c++17' [C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\charonload\\torch\\cxx_standard_14\\torch_cxx_standard.vcxproj]
+          C:\\Users\\David\\miniconda3\\Lib\\site-packages\\torch\\include\\c10\\util\\TypeTraits.h(6,21): error C2429: language feature 'nested-namespace-definition' requires compiler flag '/std:c++17' [C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\charonload\\torch\\cxx_standard_14\\torch_cxx_standard.vcxproj]
+          C:\\Users\\David\\miniconda3\\Lib\\site-packages\\torch\\include\\c10\\util\\TypeList.h(10,21): error C2429: language feature 'nested-namespace-definition' requires compiler flag '/std:c++17' [C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\charonload\\torch\\cxx_standard_14\\torch_cxx_standard.vcxproj]
+          C:\\Users\\David\\miniconda3\\Lib\\site-packages\\torch\\include\\c10\\util\\Metaprogramming.h(6,21): error C2429: language feature 'nested-namespace-definition' requires compiler flag '/std:c++17' [C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\charonload\\torch\\cxx_standard_14\\torch_cxx_standard.vcxproj]
+          C:\\Users\\David\\miniconda3\\Lib\\site-packages\\torch\\include\\c10\\util\\llvmMathExtras.h(59,21): error C2429: language feature 'nested-namespace-definition' requires compiler flag '/std:c++17' [C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\charonload\\torch\\cxx_standard_14\\torch_cxx_standard.vcxproj]
+          C:\\Users\\David\\miniconda3\\Lib\\site-packages\\torch\\include\\c10\\util\\floating_point_utils.h(6,23): error C2429: language feature 'nested-namespace-definition' requires compiler flag '/std:c++17' [C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\charonload\\torch\\cxx_standard_14\\torch_cxx_standard.vcxproj]
+          C:\\Users\\David\\miniconda3\\Lib\\site-packages\\torch\\include\\c10\\util\\Float8_fnuz_cvt.h(11,23): error C2429: language feature 'nested-namespace-definition' requires compiler flag '/std:c++17' [C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\charonload\\torch\\cxx_standard_14\\torch_cxx_standard.vcxproj]
+          C:\\Users\\David\\miniconda3\\Lib\\site-packages\\torch\\include\\c10\\util\\Optional.h(13,12): error C2039: 'bad_optional_access': is not a member of 'std' [C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\charonload\\torch\\cxx_standard_14\\torch_cxx_standard.vcxproj]
+          C:\\Users\\David\\miniconda3\\Lib\\site-packages\\torch\\include\\c10\\util\\Optional.h(13,1): error C2873: 'bad_optional_access': symbol cannot be used in a using-declaration [C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\charonload\\torch\\cxx_standard_14\\torch_cxx_standard.vcxproj]
+          C:\\Users\\David\\miniconda3\\Lib\\site-packages\\torch\\include\\c10\\util\\Optional.h(15,12): error C2039: 'make_optional': is not a member of 'std' [C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\charonload\\torch\\cxx_standard_14\\torch_cxx_standard.vcxproj]
+          C:\\Users\\David\\miniconda3\\Lib\\site-packages\\torch\\include\\c10\\util\\Optional.h(15,1): error C2873: 'make_optional': symbol cannot be used in a using-declaration [C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\charonload\\torch\\cxx_standard_14\\torch_cxx_standard.vcxproj]
+          C:\\Users\\David\\miniconda3\\Lib\\site-packages\\torch\\include\\c10\\util\\Optional.h(17,12): error C2039: 'nullopt': is not a member of 'std' [C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\charonload\\torch\\cxx_standard_14\\torch_cxx_standard.vcxproj]
+          C:\\Users\\David\\miniconda3\\Lib\\site-packages\\torch\\include\\c10\\util\\Optional.h(17,1): error C2873: 'nullopt': symbol cannot be used in a using-declaration [C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\charonload\\torch\\cxx_standard_14\\torch_cxx_standard.vcxproj]
+          C:\\Users\\David\\miniconda3\\Lib\\site-packages\\torch\\include\\c10\\util\\Optional.h(19,12): error C2039: 'nullopt_t': is not a member of 'std' [C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\charonload\\torch\\cxx_standard_14\\torch_cxx_standard.vcxproj]
+          C:\\Users\\David\\miniconda3\\Lib\\site-packages\\torch\\include\\c10\\util\\Optional.h(19,1): error C2873: 'nullopt_t': symbol cannot be used in a using-declaration [C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\charonload\\torch\\cxx_standard_14\\torch_cxx_standard.vcxproj]
+          C:\\Users\\David\\miniconda3\\Lib\\site-packages\\torch\\include\\c10\\util\\Optional.h(21,12): error C2039: 'optional': is not a member of 'std' [C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\charonload\\torch\\cxx_standard_14\\torch_cxx_standard.vcxproj]
+          C:\\Users\\David\\miniconda3\\Lib\\site-packages\\torch\\include\\c10\\util\\Optional.h(21,1): error C2873: 'optional': symbol cannot be used in a using-declaration [C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\charonload\\torch\\cxx_standard_14\\torch_cxx_standard.vcxproj]
+          C:\\Users\\David\\miniconda3\\Lib\\site-packages\\torch\\include\\c10\\util\\Optional.h(32,41): error C2988: unrecognizable template declaration/definition [C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\charonload\\torch\\cxx_standard_14\\torch_cxx_standard.vcxproj]
+          C:\\Users\\David\\miniconda3\\Lib\\site-packages\\torch\\include\\c10\\util\\Optional.h(32,41): error C2143: syntax error: missing ',' before '<' [C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\charonload\\torch\\cxx_standard_14\\torch_cxx_standard.vcxproj]
+          C:\\Users\\David\\miniconda3\\Lib\\site-packages\\torch\\include\\c10\\util\\Optional.h(40,27): error C2065: 'optional': undeclared identifier [C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\charonload\\torch\\cxx_standard_14\\torch_cxx_standard.vcxproj]
+          C:\\Users\\David\\miniconda3\\Lib\\site-packages\\torch\\include\\c10\\util\\Optional.h(40,38): error C2988: unrecognizable template declaration/definition [C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\charonload\\torch\\cxx_standard_14\\torch_cxx_standard.vcxproj]
+          C:\\Users\\David\\miniconda3\\Lib\\site-packages\\torch\\include\\c10\\util\\Optional.h(40,38): error C2059: syntax error: '&&' [C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\charonload\\torch\\cxx_standard_14\\torch_cxx_standard.vcxproj]
+          C:\\Users\\David\\miniconda3\\Lib\\site-packages\\torch\\include\\c10\\util\\Optional.h(40,54): error C2143: syntax error: missing ';' before '{' [C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\charonload\\torch\\cxx_standard_14\\torch_cxx_standard.vcxproj]
+          C:\\Users\\David\\miniconda3\\Lib\\site-packages\\torch\\include\\c10\\util\\Optional.h(40,54): error C2447: '{': missing function header (old-style formal list?) [C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\charonload\\torch\\cxx_standard_14\\torch_cxx_standard.vcxproj]
+          C:\\Users\\David\\miniconda3\\Lib\\site-packages\\torch\\include\\c10\\util\\MaybeOwned.h(85,28): error C2061: syntax error: identifier 'in_place_t' [C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\charonload\\torch\\cxx_standard_14\\torch_cxx_standard.vcxproj]
+          C:\\Users\\David\\miniconda3\\Lib\\site-packages\\torch\\include\\c10\\util\\MaybeOwned.h(180,32): error C2061: syntax error: identifier 'in_place_t' [C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\charonload\\torch\\cxx_standard_14\\torch_cxx_standard.vcxproj]
+          C:\\Users\\David\\miniconda3\\Lib\\site-packages\\torch\\include\\c10\\util\\intrusive_ptr.h(88,42): error C2039: 'incref': is not a member of 'c10::raw::intrusive_ptr' [C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\charonload\\torch\\cxx_standard_14\\torch_cxx_standard.vcxproj]
+          C:\\Users\\David\\miniconda3\\Lib\\site-packages\\torch\\include\\c10\\util\\intrusive_ptr.h(92,47): error C2039: 'incref': is not a member of 'c10::raw::weak_intrusive_ptr' [C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\charonload\\torch\\cxx_standard_14\\torch_cxx_standard.vcxproj]
+          C:\\Users\\David\\miniconda3\\Lib\\site-packages\\torch\\include\\c10\\util\\intrusive_ptr.h(118,5): error C2059: syntax error: 'if' [C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\charonload\\torch\\cxx_standard_14\\torch_cxx_standard.vcxproj]
+          C:\\Users\\David\\miniconda3\\Lib\\site-packages\\torch\\include\\c10\\util\\intrusive_ptr.h(118,5): error C2334: unexpected token(s) preceding '{'; skipping apparent function body [C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\charonload\\torch\\cxx_standard_14\\torch_cxx_standard.vcxproj]
+          C:\\Users\\David\\miniconda3\\Lib\\site-packages\\torch\\include\\c10\\util\\intrusive_ptr.h(133,5): error C2059: syntax error: 'if' [C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\charonload\\torch\\cxx_standard_14\\torch_cxx_standard.vcxproj]
+          C:\\Users\\David\\miniconda3\\Lib\\site-packages\\torch\\include\\c10\\util\\intrusive_ptr.h(133,5): error C2334: unexpected token(s) preceding '{'; skipping apparent function body [C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\charonload\\torch\\cxx_standard_14\\torch_cxx_standard.vcxproj]
+          C:\\Users\\David\\miniconda3\\Lib\\site-packages\\torch\\include\\c10\\util\\intrusive_ptr.h(147,75): error C2550: 'c10::intrusive_ptr_target': constructor initializer lists are only allowed on constructor definitions [C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\charonload\\torch\\cxx_standard_14\\torch_cxx_standard.vcxproj]
+          C:\\Users\\David\\miniconda3\\Lib\\site-packages\\torch\\include\\c10\\util\\intrusive_ptr.h(147,13): error C3615: constexpr function 'c10::intrusive_ptr_target' cannot result in a constant expression [C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\charonload\\torch\\cxx_standard_14\\torch_cxx_standard.vcxproj]
+          C:\\Users\\David\\miniconda3\\Lib\\site-packages\\torch\\include\\c10\\util\\intrusive_ptr.h(152,56): error C2059: syntax error: ')' [C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\charonload\\torch\\cxx_standard_14\\torch_cxx_standard.vcxproj]
+          C:\\Users\\David\\miniconda3\\Lib\\site-packages\\torch\\include\\c10\\util\\intrusive_ptr.h(155,23): error C2143: syntax error: missing ';' before '&' [C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\charonload\\torch\\cxx_standard_14\\torch_cxx_standard.vcxproj]
+          C:\\Users\\David\\miniconda3\\Lib\\site-packages\\torch\\include\\c10\\util\\intrusive_ptr.h(155,67): error C2059: syntax error: ')' [C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\charonload\\torch\\cxx_standard_14\\torch_cxx_standard.vcxproj]
+          C:\\Users\\David\\miniconda3\\Lib\\site-packages\\torch\\include\\c10\\util\\intrusive_ptr.h(155,78): error C2143: syntax error: missing ';' before '{' [C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\charonload\\torch\\cxx_standard_14\\torch_cxx_standard.vcxproj]
+          C:\\Users\\David\\miniconda3\\Lib\\site-packages\\torch\\include\\c10\\util\\intrusive_ptr.h(155,78): error C2447: '{': missing function header (old-style formal list?) [C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\charonload\\torch\\cxx_standard_14\\torch_cxx_standard.vcxproj]
+          C:\\Users\\David\\miniconda3\\Lib\\site-packages\\torch\\include\\c10\\util\\intrusive_ptr.h(159,50): error C2143: syntax error: missing ',' before '&' [C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\charonload\\torch\\cxx_standard_14\\torch_cxx_standard.vcxproj]
+          C:\\Users\\David\\miniconda3\\Lib\\site-packages\\torch\\include\\c10\\util\\intrusive_ptr.h(160,32): error C2550: 'c10::intrusive_ptr_target': constructor initializer lists are only allowed on constructor definitions [C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\charonload\\torch\\cxx_standard_14\\torch_cxx_standard.vcxproj]
+          C:\\Users\\David\\miniconda3\\Lib\\site-packages\\torch\\include\\c10\\util\\intrusive_ptr.h(162,23): error C2143: syntax error: missing ';' before '&' [C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\charonload\\torch\\cxx_standard_14\\torch_cxx_standard.vcxproj]
+          C:\\Users\\David\\miniconda3\\Lib\\site-packages\\torch\\include\\c10\\util\\intrusive_ptr.h(163,33): error C2143: syntax error: missing ',' before '&' [C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\charonload\\torch\\cxx_standard_14\\torch_cxx_standard.vcxproj]
+          C:\\Users\\David\\miniconda3\\Lib\\site-packages\\torch\\include\\c10\\util\\intrusive_ptr.h(163,55): error C2059: syntax error: '{' [C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\charonload\\torch\\cxx_standard_14\\torch_cxx_standard.vcxproj]
+          C:\\Users\\David\\miniconda3\\Lib\\site-packages\\torch\\include\\c10\\util\\intrusive_ptr.h(163,55): error C2143: syntax error: missing ';' before '{' [C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\charonload\\torch\\cxx_standard_14\\torch_cxx_standard.vcxproj]
+          C:\\Users\\David\\miniconda3\\Lib\\site-packages\\torch\\include\\c10\\util\\intrusive_ptr.h(163,55): error C2447: '{': missing function header (old-style formal list?) [C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\charonload\\torch\\cxx_standard_14\\torch_cxx_standard.vcxproj]
+          C:\\Users\\David\\miniconda3\\Lib\\site-packages\\torch\\include\\c10\\util\\intrusive_ptr.h(167,2): error C2059: syntax error: 'private' [C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\charonload\\torch\\cxx_standard_14\\torch_cxx_standard.vcxproj]
+          C:\\Users\\David\\miniconda3\\Lib\\site-packages\\torch\\include\\c10\\util\\intrusive_ptr.h(179,16): error C2575: 'release_resources': only member functions and bases can be virtual [C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\charonload\\torch\\cxx_standard_14\\torch_cxx_standard.vcxproj]
+          C:\\Users\\David\\miniconda3\\Lib\\site-packages\\torch\\include\\c10\\util\\intrusive_ptr.h(341,43): error C2653: 'raw': is not a class or namespace name [C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\charonload\\torch\\cxx_standard_14\\torch_cxx_standard.vcxproj]
+          C:\\Users\\David\\miniconda3\\Lib\\site-packages\\torch\\include\\c10\\util\\intrusive_ptr.h(341,48): error C2061: syntax error: identifier 'DontIncreaseRefcount' [C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\charonload\\torch\\cxx_standard_14\\torch_cxx_standard.vcxproj]
+          C:\\Users\\David\\miniconda3\\Lib\\site-packages\\torch\\include\\c10\\util\\intrusive_ptr.h(341,3): error C2382: 'intrusive_ptr<TTarget,NullType>::intrusive_ptr': redefinition; different exception specifications [C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\charonload\\torch\\cxx_standard_14\\torch_cxx_standard.vcxproj]
+          C:\\Users\\David\\miniconda3\\Lib\\site-packages\\torch\\include\\c10\\util\\intrusive_ptr.h(650,24): error C3856: 'MaybeOwnedTraits': symbol is not a class template [C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\charonload\\torch\\cxx_standard_14\\torch_cxx_standard.vcxproj]
+          C:\\Users\\David\\miniconda3\\Lib\\site-packages\\torch\\include\\c10\\util\\intrusive_ptr.h(650,44): error C2065: 'T': undeclared identifier [C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\charonload\\torch\\cxx_standard_14\\torch_cxx_standard.vcxproj]
+          C:\\Users\\David\\miniconda3\\Lib\\site-packages\\torch\\include\\c10\\util\\intrusive_ptr.h(650,30): error C2923: 'c10::intrusive_ptr': 'T' is not a valid template type argument for parameter 'T' [C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\charonload\\torch\\cxx_standard_14\\torch_cxx_standard.vcxproj]
+          C:\\Users\\David\\miniconda3\\Lib\\site-packages\\torch\\include\\c10\\util\\intrusive_ptr.h(650,30): error C2976: 'c10::intrusive_ptr': too few template arguments [C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\charonload\\torch\\cxx_standard_14\\torch_cxx_standard.vcxproj]
+          C:\\Users\\David\\miniconda3\\Lib\\site-packages\\torch\\include\\c10\\util\\intrusive_ptr.h(650,30): error C2143: syntax error: missing ';' before 'c10::intrusive_ptr' [C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\charonload\\torch\\cxx_standard_14\\torch_cxx_standard.vcxproj]
+          C:\\Users\\David\\miniconda3\\Lib\\site-packages\\torch\\include\\c10\\util\\intrusive_ptr.h(650,1): error C2059: syntax error: '>' [C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\charonload\\torch\\cxx_standard_14\\torch_cxx_standard.vcxproj]
+          C:\\Users\\David\\miniconda3\\Lib\\site-packages\\torch\\include\\c10\\util\\intrusive_ptr.h(650,48): error C2143: syntax error: missing ';' before '{' [C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\charonload\\torch\\cxx_standard_14\\torch_cxx_standard.vcxproj]
+          C:\\Users\\David\\miniconda3\\Lib\\site-packages\\torch\\include\\c10\\util\\intrusive_ptr.h(650,48): error C2447: '{': missing function header (old-style formal list?) [C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\charonload\\torch\\cxx_standard_14\\torch_cxx_standard.vcxproj]
+          C:\\Users\\David\\miniconda3\\Lib\\site-packages\\torch\\include\\c10\\util\\intrusive_ptr.h(971,35): error C2187: syntax error: 'intrusive_ptr_target' was unexpected here [C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\charonload\\torch\\cxx_standard_14\\torch_cxx_standard.vcxproj]
+          C:\\Users\\David\\miniconda3\\Lib\\site-packages\\torch\\include\\c10\\util\\intrusive_ptr.h(991,20): error C2065: 'intrusive_ptr_target': undeclared identifier [C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\charonload\\torch\\cxx_standard_14\\torch_cxx_standard.vcxproj]
+          C:\\Users\\David\\miniconda3\\Lib\\site-packages\\torch\\include\\c10\\util\\intrusive_ptr.h(991,42): error C2065: 'self': undeclared identifier [C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\charonload\\torch\\cxx_standard_14\\torch_cxx_standard.vcxproj]
+          C:\\Users\\David\\miniconda3\\Lib\\site-packages\\torch\\include\\c10\\util\\intrusive_ptr.h(991,13): error C2182: 'incref': this use of 'void' is not valid [C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\charonload\\torch\\cxx_standard_14\\torch_cxx_standard.vcxproj]
+          C:\\Users\\David\\miniconda3\\Lib\\site-packages\\torch\\include\\c10\\util\\intrusive_ptr.h(991,13): error C7525: inline variables require at least '/std:c++17' [C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\charonload\\torch\\cxx_standard_14\\torch_cxx_standard.vcxproj]
+          C:\\Users\\David\\miniconda3\\Lib\\site-packages\\torch\\include\\c10\\util\\intrusive_ptr.h(991,48): error C2143: syntax error: missing ';' before '{' [C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\charonload\\torch\\cxx_standard_14\\torch_cxx_standard.vcxproj]
+          C:\\Users\\David\\miniconda3\\Lib\\site-packages\\torch\\include\\c10\\util\\intrusive_ptr.h(991,48): error C2447: '{': missing function header (old-style formal list?) [C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\charonload\\torch\\cxx_standard_14\\torch_cxx_standard.vcxproj]
+          C:\\Users\\David\\miniconda3\\Lib\\site-packages\\torch\\include\\c10\\util\\intrusive_ptr.h(999,20): error C2065: 'intrusive_ptr_target': undeclared identifier [C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\charonload\\torch\\cxx_standard_14\\torch_cxx_standard.vcxproj]
+          C:\\Users\\David\\miniconda3\\Lib\\site-packages\\torch\\include\\c10\\util\\intrusive_ptr.h(999,42): error C2065: 'self': undeclared identifier [C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\charonload\\torch\\cxx_standard_14\\torch_cxx_standard.vcxproj]
+          C:\\Users\\David\\miniconda3\\Lib\\site-packages\\torch\\include\\c10\\util\\intrusive_ptr.h(999,13): error C2182: 'decref': this use of 'void' is not valid [C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\charonload\\torch\\cxx_standard_14\\torch_cxx_standard.vcxproj]
+          C:\\Users\\David\\miniconda3\\Lib\\site-packages\\torch\\include\\c10\\util\\intrusive_ptr.h(999,13): error C7525: inline variables require at least '/std:c++17' [C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\charonload\\torch\\cxx_standard_14\\torch_cxx_standard.vcxproj]
+          C:\\Users\\David\\miniconda3\\Lib\\site-packages\\torch\\include\\c10\\util\\intrusive_ptr.h(999,48): error C2143: syntax error: missing ';' before '{' [C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\charonload\\torch\\cxx_standard_14\\torch_cxx_standard.vcxproj]
+          C:\\Users\\David\\miniconda3\\Lib\\site-packages\\torch\\include\\c10\\util\\intrusive_ptr.h(999,48): error C2447: '{': missing function header (old-style formal list?) [C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\charonload\\torch\\cxx_standard_14\\torch_cxx_standard.vcxproj]
+          C:\\Users\\David\\miniconda3\\Lib\\site-packages\\torch\\include\\c10\\util\\intrusive_ptr.h(1015,27): error C2065: 'intrusive_ptr_target': undeclared identifier [C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\charonload\\torch\\cxx_standard_14\\torch_cxx_standard.vcxproj]
+          C:\\Users\\David\\miniconda3\\Lib\\site-packages\\torch\\include\\c10\\util\\intrusive_ptr.h(1015,49): error C2065: 'self': undeclared identifier [C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\charonload\\torch\\cxx_standard_14\\torch_cxx_standard.vcxproj]
+          C:\\Users\\David\\miniconda3\\Lib\\site-packages\\torch\\include\\c10\\util\\intrusive_ptr.h(1015,17): error C7525: inline variables require at least '/std:c++17' [C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\charonload\\torch\\cxx_standard_14\\torch_cxx_standard.vcxproj]
+          C:\\Users\\David\\miniconda3\\Lib\\site-packages\\torch\\include\\c10\\util\\intrusive_ptr.h(1015,55): error C2143: syntax error: missing ';' before '{' [C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\charonload\\torch\\cxx_standard_14\\torch_cxx_standard.vcxproj]
+          C:\\Users\\David\\miniconda3\\Lib\\site-packages\\torch\\include\\c10\\util\\intrusive_ptr.h(1015,55): error C2447: '{': missing function header (old-style formal list?) [C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\charonload\\torch\\cxx_standard_14\\torch_cxx_standard.vcxproj]
+          C:\\Users\\David\\miniconda3\\Lib\\site-packages\\torch\\include\\c10\\util\\intrusive_ptr.h(1026,20): error C2065: 'weak_intrusive_ptr_target': undeclared identifier [C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\charonload\\torch\\cxx_standard_14\\torch_cxx_standard.vcxproj]
+          C:\\Users\\David\\miniconda3\\Lib\\site-packages\\torch\\include\\c10\\util\\intrusive_ptr.h(1026,47): error C2065: 'self': undeclared identifier [C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\charonload\\torch\\cxx_standard_14\\torch_cxx_standard.vcxproj]
+          C:\\Users\\David\\miniconda3\\Lib\\site-packages\\torch\\include\\c10\\util\\intrusive_ptr.h(1026,47): error C1003: error count exceeds 100; stopping compilation [C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\charonload\\torch\\cxx_standard_14\\torch_cxx_standard.vcxproj]
+        
+            3 Warning(s)
+            99 Error(s)
+        
+        Time Elapsed 00:00:00.99
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/David/miniconda3/Lib/site-packages/charonload/cmake/torch/cxx_standard.cmake:17 (try_compile)"
+      - "C:/Users/David/miniconda3/Lib/site-packages/charonload/cmake/charonload-config.cmake:104 (charonload_detect_torch_cxx_standard)"
+      - "CMakeLists.txt:7 (find_package)"
+    checks:
+      - "CMAKE_CXX_STANDARD: 17"
+      - "Detecting minimum C++ standard for Torch ..."
+    description: "Checking C++17 standard for Torch"
+    directories:
+      source: "C:/Users/David/miniconda3/Lib/site-packages/charonload/cmake/torch/cxx_standard"
+      binary: "C:/Users/David/Work/Projects/Paper/SAFT/code/code/python/build_python/charonload/torch/cxx_standard_17"
+    cmakeVariables:
+      CMAKE_CUDA_ARCHITECTURES: "OFF"
+    buildResult:
+      variable: "COMPILE_RESULT"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/David/Work/Projects/Paper/SAFT/code/code/python/build_python/charonload/torch/cxx_standard_17'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" ALL_BUILD.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.8.3+195e7f5a3 for .NET Framework
+        Build started 24.07.2025 11:03:59.
+        
+        Project "C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\charonload\\torch\\cxx_standard_17\\ALL_BUILD.vcxproj" on node 1 (default targets).
+        Project "C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\charonload\\torch\\cxx_standard_17\\ALL_BUILD.vcxproj" (1) is building "C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\charonload\\torch\\cxx_standard_17\\ZERO_CHECK.vcxproj" (2) on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "x64\\Debug\\ZERO_CHECK\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "x64\\Debug\\ZERO_CHECK\\ZERO_CHECK.tlog\\".
+        InitializeBuildStatus:
+          Creating "x64\\Debug\\ZERO_CHECK\\ZERO_CHECK.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "x64\\Debug\\ZERO_CHECK\\ZERO_CHECK.tlog\\unsuccessfulbuild".
+        CustomBuild:
+          1>Checking Build System
+        FinalizeBuildStatus:
+          Deleting file "x64\\Debug\\ZERO_CHECK\\ZERO_CHECK.tlog\\unsuccessfulbuild".
+          Touching "x64\\Debug\\ZERO_CHECK\\ZERO_CHECK.tlog\\ZERO_CHECK.lastbuildstate".
+        Done Building Project "C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\charonload\\torch\\cxx_standard_17\\ZERO_CHECK.vcxproj" (default targets).
+        Project "C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\charonload\\torch\\cxx_standard_17\\ALL_BUILD.vcxproj" (1) is building "C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\charonload\\torch\\cxx_standard_17\\torch_cxx_standard.vcxproj" (3) on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "torch_cxx_standard.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\charonload\\torch\\cxx_standard_17\\Debug\\".
+          Creating directory "torch_cxx_standard.dir\\Debug\\torch_cx.339ED420.tlog\\".
+        InitializeBuildStatus:
+          Creating "torch_cxx_standard.dir\\Debug\\torch_cx.339ED420.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "torch_cxx_standard.dir\\Debug\\torch_cx.339ED420.tlog\\unsuccessfulbuild".
+        CustomBuild:
+          Building Custom Rule C:/Users/David/miniconda3/Lib/site-packages/charonload/cmake/torch/cxx_standard/CMakeLists.txt
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.1\\include" /Z7 /nologo /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D USE_DISTRIBUTED /D USE_C10D_GLOO /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c++17 /Fo"torch_cxx_standard.dir\\Debug\\\\" /Fd"torch_cxx_standard.dir\\Debug\\vc143.pdb" /external:W0 /Gd /TP /errorReport:queue  /external:I "C:/Users/David/miniconda3/Lib/site-packages/torch/include" /external:I "C:/Users/David/miniconda3/Lib/site-packages/torch/include/torch/csrc/api/include" /external:I "C:/Program Files/NVIDIA Corporation/NvToolsExt//include" /external:I "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.1/include" /external:I "C:/Program Files/NVIDIA Corporation/NvToolsExt/include" /bigobj "C:\\Users\\David\\miniconda3\\Lib\\site-packages\\charonload\\cmake\\torch\\cxx_standard\\torch_cxx_standard.cpp"
+          torch_cxx_standard.cpp
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\charonload\\torch\\cxx_standard_17\\Debug\\torch_cxx_standard.exe" /INCREMENTAL /ILK:"torch_cxx_standard.dir\\Debug\\torch_cxx_standard.ilk" /NOLOGO /LIBPATH:/lib /LIBPATH:/lib/Debug /LIBPATH:/lib/intel64 /LIBPATH:/lib/intel64/Debug /LIBPATH:/lib/intel64_win /LIBPATH:/lib/intel64_win/Debug /LIBPATH:"/lib/win-x64" /LIBPATH:"/lib/win-x64/Debug" /LIBPATH:"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.1\\lib\\x64" "C:\\Users\\David\\miniconda3\\Lib\\site-packages\\torch\\lib\\c10.lib" "C:\\Users\\David\\miniconda3\\Lib\\site-packages\\torch\\lib\\kineto.lib" "C:\\Program Files\\NVIDIA Corporation\\NvToolsExt\\\\lib\\x64\\nvToolsExt64_1.lib" "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.1\\lib\\x64\\cudart_static.lib" "C:\\Users\\David\\miniconda3\\Lib\\site-packages\\torch\\lib\\caffe2_nvrtc.lib" "C:\\Users\\David\\miniconda3\\Lib\\site-packages\\torch\\lib\\c10_cuda.lib" "C:\\Users\\David\\miniconda3\\Lib\\site-packages\\torch\\lib\\torch.lib" "C:\\Users\\David\\miniconda3\\Lib\\site-packages\\torch\\lib\\torch_cuda.lib" "C:\\Users\\David\\miniconda3\\Lib\\site-packages\\torch\\lib\\torch_cpu.lib" "-INCLUDE:?warp_size@cuda@at@@YAHXZ" "C:\\Users\\David\\miniconda3\\Lib\\site-packages\\torch\\lib\\c10_cuda.lib" "C:\\Users\\David\\miniconda3\\Lib\\site-packages\\torch\\lib\\c10.lib" "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.1\\lib\\x64\\cudart.lib" "C:\\Program Files\\NVIDIA Corporation\\NvToolsExt\\lib\\x64\\nvToolsExt64_1.lib" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/David/Work/Projects/Paper/SAFT/code/code/python/build_python/charonload/torch/cxx_standard_17/Debug/torch_cxx_standard.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/David/Work/Projects/Paper/SAFT/code/code/python/build_python/charonload/torch/cxx_standard_17/Debug/torch_cxx_standard.lib" /MACHINE:X64  /machine:x64 torch_cxx_standard.dir\\Debug\\torch_cxx_standard.obj
+             Creating library C:/Users/David/Work/Projects/Paper/SAFT/code/code/python/build_python/charonload/torch/cxx_standard_17/Debug/torch_cxx_standard.lib and object C:/Users/David/Work/Projects/Paper/SAFT/code/code/python/build_python/charonload/torch/cxx_standard_17/Debug/torch_cxx_standard.exp
+          torch_cxx_standard.vcxproj -> C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\charonload\\torch\\cxx_standard_17\\Debug\\torch_cxx_standard.exe
+        FinalizeBuildStatus:
+          Deleting file "torch_cxx_standard.dir\\Debug\\torch_cx.339ED420.tlog\\unsuccessfulbuild".
+          Touching "torch_cxx_standard.dir\\Debug\\torch_cx.339ED420.tlog\\torch_cxx_standard.lastbuildstate".
+        Done Building Project "C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\charonload\\torch\\cxx_standard_17\\torch_cxx_standard.vcxproj" (default targets).
+        PrepareForBuild:
+          Creating directory "x64\\Debug\\ALL_BUILD\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "x64\\Debug\\ALL_BUILD\\ALL_BUILD.tlog\\".
+        InitializeBuildStatus:
+          Creating "x64\\Debug\\ALL_BUILD\\ALL_BUILD.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "x64\\Debug\\ALL_BUILD\\ALL_BUILD.tlog\\unsuccessfulbuild".
+        CustomBuild:
+          Building Custom Rule C:/Users/David/miniconda3/Lib/site-packages/charonload/cmake/torch/cxx_standard/CMakeLists.txt
+        FinalizeBuildStatus:
+          Deleting file "x64\\Debug\\ALL_BUILD\\ALL_BUILD.tlog\\unsuccessfulbuild".
+          Touching "x64\\Debug\\ALL_BUILD\\ALL_BUILD.tlog\\ALL_BUILD.lastbuildstate".
+        Done Building Project "C:\\Users\\David\\Work\\Projects\\Paper\\SAFT\\code\\code\\python\\build_python\\charonload\\torch\\cxx_standard_17\\ALL_BUILD.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:02.18
+        
+      exitCode: 0
+...
